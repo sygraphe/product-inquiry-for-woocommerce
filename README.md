@@ -1,4 +1,4 @@
-# Hide Price & Ask Button for WooCommerce
+# Sygraphe Product Inquiry Mode for WooCommerce
 
 A WordPress/WooCommerce plugin that hides product prices and replaces the "Add to Cart" button with a customizable **"Ask for Product"** inquiry button and built-in contact form modal.
 
