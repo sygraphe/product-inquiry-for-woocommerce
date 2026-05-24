@@ -2,8 +2,8 @@
 
 A WordPress/WooCommerce plugin that hides product prices and replaces the "Add to Cart" button with a customizable **"Ask for Product"** inquiry button and built-in contact form modal.
 
-![WordPress](https://img.shields.io/badge/WordPress-5.8%2B-blue?logo=wordpress)
-![WooCommerce](https://img.shields.io/badge/WooCommerce-5.0%2B-96588a?logo=woocommerce)
+![WordPress](https://img.shields.io/badge/WordPress-6.0%2B-blue?logo=wordpress)
+![WooCommerce](https://img.shields.io/badge/WooCommerce-8.0%2B-96588a?logo=woocommerce)
 ![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?logo=php)
 ![License](https://img.shields.io/badge/License-GPLv2_or_later-green)
 
