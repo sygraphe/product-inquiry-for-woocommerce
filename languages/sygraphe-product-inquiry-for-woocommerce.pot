@@ -1,4 +1,4 @@
-# Copyright (C) 2026 Senortiago
+﻿# Copyright (C) 2026 Senortiago
 # This file is distributed under the GPL-3.0-or-later.
 msgid ""
 msgstr ""
@@ -68,7 +68,7 @@ msgid "About"
 msgstr ""
 
 #: includes/class-admin.php:135
-msgid "Searching…"
+msgid "Searchingâ€¦"
 msgstr ""
 
 #: includes/class-admin.php:136
@@ -83,7 +83,7 @@ msgid "Remove"
 msgstr ""
 
 #: includes/class-admin.php:138
-msgid "Saving…"
+msgid "Savingâ€¦"
 msgstr ""
 
 #: includes/class-admin.php:139
@@ -123,7 +123,7 @@ msgstr ""
 
 #: includes/class-admin.php:168
 #: includes/class-admin.php:296
-msgid "Type a product name, ID, or SKU…"
+msgid "Type a product name, ID, or SKUâ€¦"
 msgstr ""
 
 #: includes/class-admin.php:180
@@ -147,7 +147,7 @@ msgid "Search Categories"
 msgstr ""
 
 #: includes/class-admin.php:239
-msgid "Type a category name or ID…"
+msgid "Type a category name or IDâ€¦"
 msgstr ""
 
 #: includes/class-admin.php:251
@@ -315,7 +315,7 @@ msgid "Replace the Add to Cart button with a customizable inquiry button."
 msgstr ""
 
 #: includes/class-admin.php:595
-msgid "Built-in contact form modal — no extra plugins needed."
+msgid "Built-in contact form modal â€” no extra plugins needed."
 msgstr ""
 
 #: includes/class-admin.php:596
@@ -443,7 +443,7 @@ msgid "Required"
 msgstr ""
 
 #: includes/class-frontend.php:317
-msgid "Sending…"
+msgid "Sendingâ€¦"
 msgstr ""
 
 #: includes/class-frontend.php:319

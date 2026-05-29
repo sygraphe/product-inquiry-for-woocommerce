@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * Admin class for the Sygraphe Product Inquiry Mode for WooCommerce plugin.
+ * Admin class for the Sygraphe Product Inquiry for WooCommerce plugin.
  *
  * Registers admin menus, renders settings pages, enqueues admin assets,
  * and handles AJAX saving of plugin options.
@@ -43,8 +43,8 @@ class Admin {
 	 */
 	public function register_menu() {
 		add_menu_page(
-			esc_html__( 'Product Inquiry', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-			esc_html__( 'Product Inquiry', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
+			esc_html__( 'Product Inquiry', 'sygraphe-product-inquiry-for-woocommerce' ),
+			esc_html__( 'Product Inquiry', 'sygraphe-product-inquiry-for-woocommerce' ),
 			'manage_woocommerce',
 			'wchpab-categories',
 			array( $this, 'render_categories_page' ),
@@ -54,8 +54,8 @@ class Admin {
 
 		add_submenu_page(
 			'wchpab-categories',
-			esc_html__( 'Hide Category Prices', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-			esc_html__( 'Hide Category Prices', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
+			esc_html__( 'Hide Category Prices', 'sygraphe-product-inquiry-for-woocommerce' ),
+			esc_html__( 'Hide Category Prices', 'sygraphe-product-inquiry-for-woocommerce' ),
 			'manage_woocommerce',
 			'wchpab-categories',
 			array( $this, 'render_categories_page' )
@@ -63,8 +63,8 @@ class Admin {
 
 		add_submenu_page(
 			'wchpab-categories',
-			esc_html__( 'Button Settings', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-			esc_html__( 'Button Settings', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
+			esc_html__( 'Button Settings', 'sygraphe-product-inquiry-for-woocommerce' ),
+			esc_html__( 'Button Settings', 'sygraphe-product-inquiry-for-woocommerce' ),
 			'manage_woocommerce',
 			'wchpab-settings',
 			array( $this, 'render_settings_page' )
@@ -72,8 +72,8 @@ class Admin {
 
 		add_submenu_page(
 			'wchpab-categories',
-			esc_html__( 'About', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-			esc_html__( 'About', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
+			esc_html__( 'About', 'sygraphe-product-inquiry-for-woocommerce' ),
+			esc_html__( 'About', 'sygraphe-product-inquiry-for-woocommerce' ),
 			'manage_woocommerce',
 			'wchpab-about',
 			array( $this, 'render_about_page' )
@@ -120,13 +120,13 @@ class Admin {
 			'ajax_url'          => admin_url( 'admin-ajax.php' ),
 			'nonce'             => wp_create_nonce( 'wchpab_admin_nonce' ),
 			'i18n'              => array(
-				'searching'        => esc_html__( 'Searching…', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'no_results'       => esc_html__( 'No results found.', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'remove'           => esc_html__( 'Remove', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'saving'           => esc_html__( 'Saving…', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'saved'            => esc_html__( 'Changes saved successfully.', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'save_error'       => esc_html__( 'An error occurred while saving.', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'search'           => esc_html__( 'Search', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
+				'searching'        => esc_html__( 'Searchingâ€¦', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'no_results'       => esc_html__( 'No results found.', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'remove'           => esc_html__( 'Remove', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'saving'           => esc_html__( 'Savingâ€¦', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'saved'            => esc_html__( 'Changes saved successfully.', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'save_error'       => esc_html__( 'An error occurred while saving.', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'search'           => esc_html__( 'Search', 'sygraphe-product-inquiry-for-woocommerce' ),
 			),
 		) );
 	}
@@ -149,47 +149,47 @@ class Admin {
 					<strong style="font-size: 14px; color: #1e293b;"><span class="dashicons dashicons-star-filled" style="color: #f59e0b; margin-top: -2px;"></span> Unlock the Pro Version</strong>
 					<p style="margin: 4px 0 0; color: #475569; font-size: 13px;">Get unlimited hidden categories, exclude unlimited products, hide by specific user roles, and fully customize your buttons!</p>
 				</div>
-				<a href="https://sygraphe.com/product-inquiry-mode-for-woocommerce" target="_blank" class="button button-primary" style="background: #2271b1; border-color: #2271b1;">Upgrade to Pro</a>
+				<a href="https://sygraphe.com/product-inquiry-for-woocommerce" target="_blank" class="button button-primary" style="background: #2271b1; border-color: #2271b1;">Upgrade to Pro</a>
 			</div>
-			<h1><?php esc_html_e( 'Hide Category Prices', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></h1>
+			<h1><?php esc_html_e( 'Hide Category Prices', 'sygraphe-product-inquiry-for-woocommerce' ); ?></h1>
 
-			<p class="description"><?php esc_html_e( 'Search for product categories by name or ID and add them to the hidden price list.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></p>
+			<p class="description"><?php esc_html_e( 'Search for product categories by name or ID and add them to the hidden price list.', 'sygraphe-product-inquiry-for-woocommerce' ); ?></p>
 
 
 			<div class="wchpab-search-section">
-				<label for="wchpab-category-search"><?php esc_html_e( 'Search Categories', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></label>
+				<label for="wchpab-category-search"><?php esc_html_e( 'Search Categories', 'sygraphe-product-inquiry-for-woocommerce' ); ?></label>
 				<div class="wchpab-search-row">
 					<input
 						type="text"
 						id="wchpab-category-search"
 						class="wchpab-search-input"
-						placeholder="<?php esc_attr_e( 'Type a category name or ID…', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>"
+						placeholder="<?php esc_attr_e( 'Type a category name or IDâ€¦', 'sygraphe-product-inquiry-for-woocommerce' ); ?>"
 						autocomplete="off"
 					/>
 					<button type="button" id="wchpab-category-search-btn" class="button wchpab-search-btn">
 						<span class="dashicons dashicons-search"></span>
-						<?php esc_html_e( 'Search', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+						<?php esc_html_e( 'Search', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 					</button>
 				</div>
 				<div id="wchpab-category-results" class="wchpab-search-results"></div>
 			</div>
 
 			<div class="wchpab-tags-section">
-				<h3><?php esc_html_e( 'Categories', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></h3>
+				<h3><?php esc_html_e( 'Categories', 'sygraphe-product-inquiry-for-woocommerce' ); ?></h3>
 				<div id="wchpab-category-tags" class="wchpab-tags-container" data-type="categories">
 					<?php
 					if ( empty( $saved_cat_ids ) ) {
-						echo '<span class="wchpab-no-tags-message">' . esc_html__( 'No categories selected yet.', 'sygraphe-product-inquiry-mode-for-woocommerce' ) . '</span>';
+						echo '<span class="wchpab-no-tags-message">' . esc_html__( 'No categories selected yet.', 'sygraphe-product-inquiry-for-woocommerce' ) . '</span>';
 					} else {
 						foreach ( $saved_cat_ids as $cat_id ) {
 							$term = get_term( $cat_id, 'product_cat' );
 							if ( $term && ! is_wp_error( $term ) ) {
-								$label = sprintf( '#%d — %s', $cat_id, $term->name );
+								$label = sprintf( '#%d â€” %s', $cat_id, $term->name );
 								printf(
 									'<span class="wchpab-tag" data-id="%d">%s<button type="button" class="wchpab-tag-remove" aria-label="%s">&times;</button><input type="hidden" name="wchpab_category_ids[]" value="%d" /></span>',
 									esc_attr( $cat_id ),
 									esc_html( $label ),
-									esc_attr__( 'Remove', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
+									esc_attr__( 'Remove', 'sygraphe-product-inquiry-for-woocommerce' ),
 									esc_attr( $cat_id )
 								);
 							}
@@ -201,7 +201,7 @@ class Admin {
 
 			<div class="wchpab-save-section">
 				<button type="button" id="wchpab-save-categories" class="button button-primary" data-save-action="wchpab_save_categories">
-					<?php esc_html_e( 'Save Categories', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+					<?php esc_html_e( 'Save Categories', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 				</button>
 				<span class="wchpab-save-notice" id="wchpab-categories-notice"></span>
 			</div>
@@ -227,7 +227,7 @@ class Admin {
 		$target_product     = isset( $settings['target_product'] ) ? (bool) $settings['target_product'] : true;
 		$target_archive     = isset( $settings['target_archive'] ) ? (bool) $settings['target_archive'] : true;
 
-		$default_text = esc_html__( 'Ask for product', 'sygraphe-product-inquiry-mode-for-woocommerce' );
+		$default_text = esc_html__( 'Ask for product', 'sygraphe-product-inquiry-for-woocommerce' );
 
 		?>
 		<div class="wrap wchpab-admin-wrap">
@@ -236,32 +236,32 @@ class Admin {
 					<strong style="font-size: 14px; color: #1e293b;"><span class="dashicons dashicons-star-filled" style="color: #f59e0b; margin-top: -2px;"></span> Unlock the Pro Version</strong>
 					<p style="margin: 4px 0 0; color: #475569; font-size: 13px;">Get unlimited hidden categories, exclude unlimited products, hide by specific user roles, and fully customize your buttons!</p>
 				</div>
-				<a href="https://sygraphe.com/product-inquiry-mode-for-woocommerce" target="_blank" class="button button-primary" style="background: #2271b1; border-color: #2271b1;">Upgrade to Pro</a>
+				<a href="https://sygraphe.com/product-inquiry-for-woocommerce" target="_blank" class="button button-primary" style="background: #2271b1; border-color: #2271b1;">Upgrade to Pro</a>
 			</div>
-			<h1><?php esc_html_e( 'Button Settings', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></h1>
+			<h1><?php esc_html_e( 'Button Settings', 'sygraphe-product-inquiry-for-woocommerce' ); ?></h1>
 
 			<form id="wchpab-settings-form">
 				<table class="form-table" role="presentation">
 					<!-- THEME INTEGRATION HEADER -->
 					<tr>
 						<th colspan="2">
-							<h2 style="margin-bottom: 0; padding-bottom: 0; "><?php esc_html_e( 'Theme Integration', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></h2>
+							<h2 style="margin-bottom: 0; padding-bottom: 0; "><?php esc_html_e( 'Theme Integration', 'sygraphe-product-inquiry-for-woocommerce' ); ?></h2>
 						</th>
 					</tr>
 
 					<!-- Replace Elements Target -->
 					<tr>
-						<th scope="row"><?php esc_html_e( 'Replace Elements On', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></th>
+						<th scope="row"><?php esc_html_e( 'Replace Elements On', 'sygraphe-product-inquiry-for-woocommerce' ); ?></th>
 						<td>
 							<fieldset>
 								<label>
 									<input type="checkbox" name="target_product" value="1" <?php checked( $target_product ); ?> />
-									<?php esc_html_e( 'Product Page', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+									<?php esc_html_e( 'Product Page', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 								</label>
 								<br />
 								<label>
 									<input type="checkbox" name="target_archive" value="1" <?php checked( $target_archive ); ?> />
-									<?php esc_html_e( 'Product List / Archive', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+									<?php esc_html_e( 'Product List / Archive', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 								</label>
 							</fieldset>
 						</td>
@@ -270,27 +270,27 @@ class Admin {
 					<!-- PRODUCT PAGE SETTINGS HEADER -->
 					<tr class="wchpab-contact-setting-row">
 						<th colspan="2">
-							<h2 style="margin-bottom: 0; padding-bottom: 0; border-top: 1px solid #ccd0d4; padding-top: 20px;"><?php esc_html_e( 'Product Page Button Settings', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></h2>
+							<h2 style="margin-bottom: 0; padding-bottom: 0; border-top: 1px solid #ccd0d4; padding-top: 20px;"><?php esc_html_e( 'Product Page Button Settings', 'sygraphe-product-inquiry-for-woocommerce' ); ?></h2>
 						</th>
 					</tr>
 
 					<!-- Product Page Button Text -->
 					<tr class="wchpab-contact-setting-row">
-						<th scope="row"><?php esc_html_e( 'Button Text', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></th>
+						<th scope="row"><?php esc_html_e( 'Button Text', 'sygraphe-product-inquiry-for-woocommerce' ); ?></th>
 						<td>
 							<fieldset>
 								<label class="wchpab-radio-label">
 									<input type="radio" name="product_text_mode" value="default" <?php checked( $product_text_mode, 'default' ); ?> />
-									<?php esc_html_e( 'Default:', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+									<?php esc_html_e( 'Default:', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 									<input type="text" value="<?php echo esc_attr( $default_text ); ?>" readonly class="regular-text wchpab-readonly-input" />
 								</label>
 								<br />
 								<label class="wchpab-radio-label">
 									<input type="radio" name="product_text_mode" value="custom" <?php checked( $product_text_mode, 'custom' ); ?> />
-									<?php esc_html_e( 'Custom:', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+									<?php esc_html_e( 'Custom:', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 									<input type="text" name="product_text" value="<?php echo esc_attr( $product_text ); ?>" maxlength="30" class="regular-text wchpab-custom-input" <?php echo 'default' === $product_text_mode ? 'disabled' : ''; ?> />
 								</label>
-								<p class="description"><?php esc_html_e( 'Maximum 30 characters.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></p>
+								<p class="description"><?php esc_html_e( 'Maximum 30 characters.', 'sygraphe-product-inquiry-for-woocommerce' ); ?></p>
 							</fieldset>
 						</td>
 					</tr>
@@ -298,27 +298,27 @@ class Admin {
 					<!-- CATEGORY PAGE SETTINGS HEADER -->
 					<tr class="wchpab-contact-setting-row">
 						<th colspan="2">
-							<h2 style="margin-bottom: 0; padding-bottom: 0; border-top: 1px solid #ccd0d4; padding-top: 20px;"><?php esc_html_e( 'Category Page Button Settings', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></h2>
+							<h2 style="margin-bottom: 0; padding-bottom: 0; border-top: 1px solid #ccd0d4; padding-top: 20px;"><?php esc_html_e( 'Category Page Button Settings', 'sygraphe-product-inquiry-for-woocommerce' ); ?></h2>
 						</th>
 					</tr>
 
 					<!-- Category Page Button Text -->
 					<tr class="wchpab-contact-setting-row">
-						<th scope="row"><?php esc_html_e( 'Button Text', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></th>
+						<th scope="row"><?php esc_html_e( 'Button Text', 'sygraphe-product-inquiry-for-woocommerce' ); ?></th>
 						<td>
 							<fieldset>
 								<label class="wchpab-radio-label">
 									<input type="radio" name="category_text_mode" value="default" <?php checked( $category_text_mode, 'default' ); ?> />
-									<?php esc_html_e( 'Default:', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+									<?php esc_html_e( 'Default:', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 									<input type="text" value="<?php echo esc_attr( $default_text ); ?>" readonly class="regular-text wchpab-readonly-input" />
 								</label>
 								<br />
 								<label class="wchpab-radio-label">
 									<input type="radio" name="category_text_mode" value="custom" <?php checked( $category_text_mode, 'custom' ); ?> />
-									<?php esc_html_e( 'Custom:', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+									<?php esc_html_e( 'Custom:', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 									<input type="text" name="category_text" value="<?php echo esc_attr( $category_text ); ?>" maxlength="30" class="regular-text wchpab-custom-input" <?php echo 'default' === $category_text_mode ? 'disabled' : ''; ?> />
 								</label>
-								<p class="description"><?php esc_html_e( 'Maximum 30 characters.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></p>
+								<p class="description"><?php esc_html_e( 'Maximum 30 characters.', 'sygraphe-product-inquiry-for-woocommerce' ); ?></p>
 							</fieldset>
 						</td>
 					</tr>
@@ -326,7 +326,7 @@ class Admin {
 
 				<div class="wchpab-save-section">
 					<button type="button" id="wchpab-save-settings" class="button button-primary" data-save-action="wchpab_save_settings">
-						<?php esc_html_e( 'Save Settings', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+						<?php esc_html_e( 'Save Settings', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 					</button>
 					<span class="wchpab-save-notice" id="wchpab-settings-notice"></span>
 				</div>
@@ -344,29 +344,29 @@ class Admin {
 	public function render_about_page() {
 		?>
 		<div class="wrap wchpab-admin-wrap">
-			<h1><?php esc_html_e( 'About Sygraphe Product Inquiry Mode for WooCommerce', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></h1>
+			<h1><?php esc_html_e( 'About Sygraphe Product Inquiry for WooCommerce', 'sygraphe-product-inquiry-for-woocommerce' ); ?></h1>
 
 			<div class="wchpab-about-card">
-				<h2><?php esc_html_e( 'About This Plugin', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></h2>
+				<h2><?php esc_html_e( 'About This Plugin', 'sygraphe-product-inquiry-for-woocommerce' ); ?></h2>
 				<p>
-					<?php esc_html_e( 'Sygraphe Product Inquiry Mode for WooCommerce is a powerful WooCommerce extension that transforms your online store into a quote-based or inquiry-driven sales platform. Perfect for B2B stores, wholesale businesses, custom product manufacturers, or any shop that prefers personal communication before sales.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+					<?php esc_html_e( 'Sygraphe Product Inquiry for WooCommerce is a powerful WooCommerce extension that transforms your online store into a quote-based or inquiry-driven sales platform. Perfect for B2B stores, wholesale businesses, custom product manufacturers, or any shop that prefers personal communication before sales.', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 				</p>
 				<p>
-					<?php esc_html_e( 'Instead of displaying prices and "Add to Cart" buttons, this plugin replaces them with customizable inquiry buttons that open a professional contact form.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+					<?php esc_html_e( 'Instead of displaying prices and "Add to Cart" buttons, this plugin replaces them with customizable inquiry buttons that open a professional contact form.', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 				</p>
 			</div>
 
 			<div class="wchpab-about-card">
-				<h2><?php esc_html_e( 'Free Version Features', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></h2>
+				<h2><?php esc_html_e( 'Free Version Features', 'sygraphe-product-inquiry-for-woocommerce' ); ?></h2>
 				<ul>
-					<li><?php esc_html_e( 'Hide prices for unlimited product categories.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></li>
-					<li><?php esc_html_e( 'Hide prices from everyone and show a professional AJAX-powered modal contact form.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></li>
-					<li><?php esc_html_e( 'Customize button text for product pages and archive pages.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></li>
-					<li><?php esc_html_e( 'Automatically include product name, ID, SKU, and link in inquiry emails.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></li>
+					<li><?php esc_html_e( 'Hide prices for unlimited product categories.', 'sygraphe-product-inquiry-for-woocommerce' ); ?></li>
+					<li><?php esc_html_e( 'Hide prices from everyone and show a professional AJAX-powered modal contact form.', 'sygraphe-product-inquiry-for-woocommerce' ); ?></li>
+					<li><?php esc_html_e( 'Customize button text for product pages and archive pages.', 'sygraphe-product-inquiry-for-woocommerce' ); ?></li>
+					<li><?php esc_html_e( 'Automatically include product name, ID, SKU, and link in inquiry emails.', 'sygraphe-product-inquiry-for-woocommerce' ); ?></li>
 					<li><?php
 						printf(
 							/* translators: %s: Admin email address. */
-							esc_html__( 'All inquiries will be sent directly to your admin email address (%s).', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
+							esc_html__( 'All inquiries will be sent directly to your admin email address (%s).', 'sygraphe-product-inquiry-for-woocommerce' ),
 							'<strong>' . esc_html( get_option( 'admin_email' ) ) . '</strong>'
 						);
 					?></li>
@@ -374,37 +374,37 @@ class Admin {
 			</div>
 
 			<div class="wchpab-about-card" style="border-left: 4px solid #f59e0b; background: #fffbeb;">
-				<h2><?php esc_html_e( 'Unlock More with Pro!', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></h2>
-				<p><?php esc_html_e( 'Upgrade to the Pro version to get these advanced capabilities:', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></p>
+				<h2><?php esc_html_e( 'Unlock More with Pro!', 'sygraphe-product-inquiry-for-woocommerce' ); ?></h2>
+				<p><?php esc_html_e( 'Upgrade to the Pro version to get these advanced capabilities:', 'sygraphe-product-inquiry-for-woocommerce' ); ?></p>
 				<ul style="list-style-type: disc; margin-left: 20px;">
-					<li><strong><?php esc_html_e( 'Product Exclusions:', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></strong> <?php esc_html_e( 'Exclude specific products from being hidden.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></li>
-					<li><strong><?php esc_html_e( 'Global Overrides:', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></strong> <?php esc_html_e( 'Hide prices from all products globally with a single click.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></li>
-					<li><strong><?php esc_html_e( 'Role-based Visibility:', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></strong> <?php esc_html_e( 'Hide prices from specific user roles or guests only.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></li>
-					<li><strong><?php esc_html_e( 'Advanced Design Customization:', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></strong> <?php esc_html_e( 'Select HTML tags, alignment, add Dashicons, and inject CSS classes into buttons.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></li>
-					<li><strong><?php esc_html_e( 'Custom Contact Forms & Emails:', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></strong> <?php esc_html_e( 'Send inquiries to a custom email address and customize login prompts.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></li>
+					<li><strong><?php esc_html_e( 'Product Exclusions:', 'sygraphe-product-inquiry-for-woocommerce' ); ?></strong> <?php esc_html_e( 'Exclude specific products from being hidden.', 'sygraphe-product-inquiry-for-woocommerce' ); ?></li>
+					<li><strong><?php esc_html_e( 'Global Overrides:', 'sygraphe-product-inquiry-for-woocommerce' ); ?></strong> <?php esc_html_e( 'Hide prices from all products globally with a single click.', 'sygraphe-product-inquiry-for-woocommerce' ); ?></li>
+					<li><strong><?php esc_html_e( 'Role-based Visibility:', 'sygraphe-product-inquiry-for-woocommerce' ); ?></strong> <?php esc_html_e( 'Hide prices from specific user roles or guests only.', 'sygraphe-product-inquiry-for-woocommerce' ); ?></li>
+					<li><strong><?php esc_html_e( 'Advanced Design Customization:', 'sygraphe-product-inquiry-for-woocommerce' ); ?></strong> <?php esc_html_e( 'Select HTML tags, alignment, add Dashicons, and inject CSS classes into buttons.', 'sygraphe-product-inquiry-for-woocommerce' ); ?></li>
+					<li><strong><?php esc_html_e( 'Custom Contact Forms & Emails:', 'sygraphe-product-inquiry-for-woocommerce' ); ?></strong> <?php esc_html_e( 'Send inquiries to a custom email address and customize login prompts.', 'sygraphe-product-inquiry-for-woocommerce' ); ?></li>
 				</ul>
 				<br>
-				<a href="https://sygraphe.com/product-inquiry-mode-for-woocommerce" target="_blank" class="button button-primary" style="background: #f59e0b; border-color: #f59e0b; font-size: 14px; padding: 5px 15px; height: auto;">Upgrade to Pro Today</a>
+				<a href="https://sygraphe.com/product-inquiry-for-woocommerce" target="_blank" class="button button-primary" style="background: #f59e0b; border-color: #f59e0b; font-size: 14px; padding: 5px 15px; height: auto;">Upgrade to Pro Today</a>
 			</div>
 
 			<div class="wchpab-about-card">
-				<h2><?php esc_html_e( 'Perfect For', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></h2>
+				<h2><?php esc_html_e( 'Perfect For', 'sygraphe-product-inquiry-for-woocommerce' ); ?></h2>
 				<ul>
-					<li><?php esc_html_e( 'B2B and wholesale businesses requiring quote requests', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></li>
-					<li><?php esc_html_e( 'Custom product manufacturers with variable pricing', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></li>
-					<li><?php esc_html_e( 'Exclusive or luxury product retailers', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></li>
-					<li><?php esc_html_e( 'Stores with member-only or role-based pricing', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></li>
-					<li><?php esc_html_e( 'Businesses preferring personal consultation before sales', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></li>
+					<li><?php esc_html_e( 'B2B and wholesale businesses requiring quote requests', 'sygraphe-product-inquiry-for-woocommerce' ); ?></li>
+					<li><?php esc_html_e( 'Custom product manufacturers with variable pricing', 'sygraphe-product-inquiry-for-woocommerce' ); ?></li>
+					<li><?php esc_html_e( 'Exclusive or luxury product retailers', 'sygraphe-product-inquiry-for-woocommerce' ); ?></li>
+					<li><?php esc_html_e( 'Stores with member-only or role-based pricing', 'sygraphe-product-inquiry-for-woocommerce' ); ?></li>
+					<li><?php esc_html_e( 'Businesses preferring personal consultation before sales', 'sygraphe-product-inquiry-for-woocommerce' ); ?></li>
 				</ul>
 			</div>
 
 			<div class="wchpab-about-card" style="border-left: 4px solid #d63638;">
-				<h2><?php esc_html_e( 'Important Notice', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></h2>
+				<h2><?php esc_html_e( 'Important Notice', 'sygraphe-product-inquiry-for-woocommerce' ); ?></h2>
 				<p>
-					<?php esc_html_e( 'WordPress themes are built differently, and each theme may have its own unique structure and styling. While this plugin is designed to work with most themes, some features (such as button alignment or custom CSS classes) may not work as intended on certain themes due to theme-specific CSS overrides or layout structures.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+					<?php esc_html_e( 'WordPress themes are built differently, and each theme may have its own unique structure and styling. While this plugin is designed to work with most themes, some features (such as button alignment or custom CSS classes) may not work as intended on certain themes due to theme-specific CSS overrides or layout structures.', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 				</p>
 				<p>
-					<?php esc_html_e( 'If you experience any compatibility issues, you may need to add custom CSS to your theme or consult with your theme developer. The plugin provides extensive customization options (HTML tags, CSS classes, alignment controls) to help you achieve the desired integration with your specific theme.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+					<?php esc_html_e( 'If you experience any compatibility issues, you may need to add custom CSS to your theme or consult with your theme developer. The plugin provides extensive customization options (HTML tags, CSS classes, alignment controls) to help you achieve the desired integration with your specific theme.', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 				</p>
 			</div>
 
@@ -413,7 +413,7 @@ class Admin {
 					<?php
 					printf(
 						/* translators: %s: Plugin version number. */
-						esc_html__( 'Version %s', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
+						esc_html__( 'Version %s', 'sygraphe-product-inquiry-for-woocommerce' ),
 						esc_html( WCHPAB_VERSION )
 					);
 					?>
@@ -431,7 +431,7 @@ class Admin {
 	 * @return array
 	 */
 	public function add_settings_link( $links ) {
-		$settings_link = '<a href="' . admin_url( 'admin.php?page=wchpab-categories' ) . '">' . esc_html__( 'Settings', 'sygraphe-product-inquiry-mode-for-woocommerce' ) . '</a>';
+		$settings_link = '<a href="' . admin_url( 'admin.php?page=wchpab-categories' ) . '">' . esc_html__( 'Settings', 'sygraphe-product-inquiry-for-woocommerce' ) . '</a>';
 		array_unshift( $links, $settings_link );
 		return $links;
 	}
@@ -500,8 +500,8 @@ class Admin {
 			}
 		';
 
-		wp_register_style( 'sygraphe-product-inquiry-mode-for-woocommerce-menu', false, array(), WCHPAB_VERSION );
-		wp_enqueue_style( 'sygraphe-product-inquiry-mode-for-woocommerce-menu' );
-		wp_add_inline_style( 'sygraphe-product-inquiry-mode-for-woocommerce-menu', $custom_css );
+		wp_register_style( 'sygraphe-product-inquiry-for-woocommerce-menu', false, array(), WCHPAB_VERSION );
+		wp_enqueue_style( 'sygraphe-product-inquiry-for-woocommerce-menu' );
+		wp_add_inline_style( 'sygraphe-product-inquiry-for-woocommerce-menu', $custom_css );
 	}
 }

@@ -1,4 +1,4 @@
-# Sygraphe Product Inquiry Mode for WooCommerce
+﻿# Sygraphe Product Inquiry for WooCommerce
 
 A WordPress/WooCommerce plugin that hides product prices and replaces the "Add to Cart" button with a customizable **"Ask for Product"** inquiry button and built-in contact form modal.
 
@@ -14,11 +14,11 @@ A WordPress/WooCommerce plugin that hides product prices and replaces the "Add t
 - **Hide Categories:** Selectively hide prices for product categories.
 - **Ask for Product Button:** Hide prices from everyone and show a professional AJAX-powered modal contact form.
 - **Button Customization:** Customize button text for product pages and archive pages.
-- **Built-in contact form modal** — no external form plugins needed.
-- **Theme-compatible** — inherits your theme's button and form styling.
-- **Fully translatable** — Greek translation included out of the box.
+- **Built-in contact form modal** â€” no external form plugins needed.
+- **Theme-compatible** â€” inherits your theme's button and form styling.
+- **Fully translatable** â€” Greek translation included out of the box.
 
-🚀 **[Need more power? Upgrade to the Pro Version!](https://sygraphe.com/hide-price-ask-button-for-woocommerce)**  
+ðŸš€ **[Need more power? Upgrade to the Pro Version!](https://sygraphe.com/hide-price-ask-button-for-woocommerce)**  
 Unlock unlimited hide rules, global overrides, product exclusions, role-based visibility, advanced design customizations (HTML tags, CSS classes, Dashicons), and custom email recipients.
 
 ## Installation
@@ -28,7 +28,7 @@ Unlock unlimited hide rules, global overrides, product exclusions, role-based vi
    cd wp-content/plugins/
    git clone https://github.com/sygraphe/hide-price-ask-button-for-woocommerce.git
    ```
-2. Activate the plugin via **Plugins → Installed Plugins** in WordPress admin.
+2. Activate the plugin via **Plugins â†’ Installed Plugins** in WordPress admin.
 3. Navigate to **Hide Price** in the admin sidebar to configure.
 
 ## Configuration

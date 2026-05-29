@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * Frontend class for the Sygraphe Product Inquiry Mode for WooCommerce plugin.
+ * Frontend class for the Sygraphe Product Inquiry for WooCommerce plugin.
  *
  * Handles price hiding, button replacement, modal rendering,
  * and frontend asset enqueuing.
@@ -151,7 +151,7 @@ class Frontend {
 			return $text;
 		}
 
-		return esc_html__( 'Ask for product', 'sygraphe-product-inquiry-mode-for-woocommerce' );
+		return esc_html__( 'Ask for product', 'sygraphe-product-inquiry-for-woocommerce' );
 	}
 
 	/**
@@ -168,7 +168,7 @@ class Frontend {
 			return $text;
 		}
 
-		return esc_html__( 'Ask for product', 'sygraphe-product-inquiry-mode-for-woocommerce' );
+		return esc_html__( 'Ask for product', 'sygraphe-product-inquiry-for-woocommerce' );
 	}
 
 
@@ -399,19 +399,19 @@ class Frontend {
 			'ajax_url' => admin_url( 'admin-ajax.php' ),
 			'nonce'    => wp_create_nonce( 'wchpab_frontend_nonce' ),
 			'i18n'     => array(
-				'form_title'    => esc_html__( 'Interest in product', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'name_label'    => esc_html__( 'Your Name', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'phone_label'   => esc_html__( 'Your Telephone', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'email_label'   => esc_html__( 'Your Email', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'message_label' => esc_html__( 'Your Message', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'submit_btn'    => esc_html__( 'Send Message', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'required'      => esc_html__( 'Required', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'sending'       => esc_html__( 'Sending…', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'success'       => esc_html__( 'Thank you! Your message has been sent successfully.', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'error'         => esc_html__( 'An error occurred. Please try again.', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'fill_required' => esc_html__( 'Please fill in all required fields.', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'invalid_email' => esc_html__( 'Please enter a valid email address.', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-				'close'         => esc_html__( 'Close', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
+				'form_title'    => esc_html__( 'Interest in product', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'name_label'    => esc_html__( 'Your Name', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'phone_label'   => esc_html__( 'Your Telephone', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'email_label'   => esc_html__( 'Your Email', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'message_label' => esc_html__( 'Your Message', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'submit_btn'    => esc_html__( 'Send Message', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'required'      => esc_html__( 'Required', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'sending'       => esc_html__( 'Sendingâ€¦', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'success'       => esc_html__( 'Thank you! Your message has been sent successfully.', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'error'         => esc_html__( 'An error occurred. Please try again.', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'fill_required' => esc_html__( 'Please fill in all required fields.', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'invalid_email' => esc_html__( 'Please enter a valid email address.', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'close'         => esc_html__( 'Close', 'sygraphe-product-inquiry-for-woocommerce' ),
 			),
 		) );
 	}
@@ -436,7 +436,7 @@ class Frontend {
 			<div class="wchpab-modal-container">
 				<div class="wchpab-modal-header">
 					<h2 id="wchpab-modal-title" class="wchpab-modal-title"></h2>
-					<button type="button" class="wchpab-modal-close" aria-label="<?php esc_attr_e( 'Close', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>">&times;</button>
+					<button type="button" class="wchpab-modal-close" aria-label="<?php esc_attr_e( 'Close', 'sygraphe-product-inquiry-for-woocommerce' ); ?>">&times;</button>
 				</div>
 				<div class="wchpab-modal-body">
 					<form id="wchpab-contact-form" novalidate>
@@ -446,7 +446,7 @@ class Frontend {
 
 						<div class="wchpab-form-field">
 							<label for="wchpab-name">
-								<?php esc_html_e( 'Your Name', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+								<?php esc_html_e( 'Your Name', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 								<span class="wchpab-required">*</span>
 							</label>
 							<input type="text" id="wchpab-name" name="wchpab_name" required />
@@ -454,14 +454,14 @@ class Frontend {
 
 						<div class="wchpab-form-field">
 							<label for="wchpab-phone">
-								<?php esc_html_e( 'Your Telephone', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+								<?php esc_html_e( 'Your Telephone', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 							</label>
 							<input type="tel" id="wchpab-phone" name="wchpab_phone" />
 						</div>
 
 						<div class="wchpab-form-field">
 							<label for="wchpab-email">
-								<?php esc_html_e( 'Your Email', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+								<?php esc_html_e( 'Your Email', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 								<span class="wchpab-required">*</span>
 							</label>
 							<input type="email" id="wchpab-email" name="wchpab_email" required />
@@ -469,7 +469,7 @@ class Frontend {
 
 						<div class="wchpab-form-field">
 							<label for="wchpab-message">
-								<?php esc_html_e( 'Your Message', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+								<?php esc_html_e( 'Your Message', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 								<span class="wchpab-required">*</span>
 							</label>
 							<textarea id="wchpab-message" name="wchpab_message" rows="4" required></textarea>
@@ -477,7 +477,7 @@ class Frontend {
 
 						<div class="wchpab-form-footer">
 							<button type="submit" class="button wchpab-submit-btn">
-								<?php esc_html_e( 'Send Message', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+								<?php esc_html_e( 'Send Message', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 							</button>
 						</div>
 

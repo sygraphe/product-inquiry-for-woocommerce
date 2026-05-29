@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /**
- * AJAX handler class for the Sygraphe Product Inquiry Mode for WooCommerce plugin.
+ * AJAX handler class for the Sygraphe Product Inquiry for WooCommerce plugin.
  *
  * Handles product search, category search, AJAX save operations,
  * and contact form submission via WordPress AJAX endpoints.
@@ -29,16 +29,16 @@ class Ajax {
 	 * Constructor. Registers AJAX hooks.
 	 */
 	public function __construct() {
-		// Admin AJAX — search categories.
+		// Admin AJAX â€” search categories.
 		add_action( 'wp_ajax_wchpab_search_categories', array( $this, 'search_categories' ) );
 
-		// Admin AJAX — save categories.
+		// Admin AJAX â€” save categories.
 		add_action( 'wp_ajax_wchpab_save_categories', array( $this, 'save_categories' ) );
 
-		// Admin AJAX — save settings.
+		// Admin AJAX â€” save settings.
 		add_action( 'wp_ajax_wchpab_save_settings', array( $this, 'save_settings' ) );
 
-		// Frontend AJAX — submit contact form (logged-in and guest users).
+		// Frontend AJAX â€” submit contact form (logged-in and guest users).
 		add_action( 'wp_ajax_wchpab_submit_form', array( $this, 'submit_form' ) );
 		add_action( 'wp_ajax_nopriv_wchpab_submit_form', array( $this, 'submit_form' ) );
 	}
@@ -58,7 +58,7 @@ class Ajax {
 		check_ajax_referer( 'wchpab_admin_nonce', 'nonce' );
 
 		if ( ! current_user_can( 'manage_woocommerce' ) ) {
-			wp_send_json_error( esc_html__( 'Unauthorized.', 'sygraphe-product-inquiry-mode-for-woocommerce' ) );
+			wp_send_json_error( esc_html__( 'Unauthorized.', 'sygraphe-product-inquiry-for-woocommerce' ) );
 		}
 
 		$term = isset( $_GET['term'] ) ? sanitize_text_field( wp_unslash( $_GET['term'] ) ) : '';
@@ -86,7 +86,7 @@ class Ajax {
 			foreach ( $terms as $cat ) {
 				$results[] = array(
 					'id'   => $cat->term_id,
-					'text' => sprintf( '#%d — %s', $cat->term_id, $cat->name ),
+					'text' => sprintf( '#%d â€” %s', $cat->term_id, $cat->name ),
 				);
 			}
 		}
@@ -105,14 +105,14 @@ class Ajax {
 		check_ajax_referer( 'wchpab_admin_nonce', 'nonce' );
 
 		if ( ! current_user_can( 'manage_woocommerce' ) ) {
-			wp_send_json_error( esc_html__( 'Unauthorized.', 'sygraphe-product-inquiry-mode-for-woocommerce' ) );
+			wp_send_json_error( esc_html__( 'Unauthorized.', 'sygraphe-product-inquiry-for-woocommerce' ) );
 		}
 
 		$ids = isset( $_POST['ids'] ) ? array_map( 'absint', (array) $_POST['ids'] ) : array();
 		$ids = array_values( array_unique( array_filter( $ids ) ) );
 		update_option( 'wchpab_hidden_categories', $ids );
 
-		wp_send_json_success( esc_html__( 'Changes saved successfully.', 'sygraphe-product-inquiry-mode-for-woocommerce' ) );
+		wp_send_json_success( esc_html__( 'Changes saved successfully.', 'sygraphe-product-inquiry-for-woocommerce' ) );
 	}
 
 	/**
@@ -125,7 +125,7 @@ class Ajax {
 		check_ajax_referer( 'wchpab_admin_nonce', 'nonce' );
 
 		if ( ! current_user_can( 'manage_woocommerce' ) ) {
-			wp_send_json_error( esc_html__( 'Unauthorized.', 'sygraphe-product-inquiry-mode-for-woocommerce' ) );
+			wp_send_json_error( esc_html__( 'Unauthorized.', 'sygraphe-product-inquiry-for-woocommerce' ) );
 		}
 
 		$settings = array(
@@ -143,7 +143,7 @@ class Ajax {
 
 		update_option( 'wchpab_button_settings', $settings );
 
-		wp_send_json_success( esc_html__( 'Changes saved successfully.', 'sygraphe-product-inquiry-mode-for-woocommerce' ) );
+		wp_send_json_success( esc_html__( 'Changes saved successfully.', 'sygraphe-product-inquiry-for-woocommerce' ) );
 	}
 
 
@@ -169,13 +169,13 @@ class Ajax {
 
 		if ( empty( $name ) || empty( $email ) || empty( $message ) ) {
 			wp_send_json_error(
-				esc_html__( 'Please fill in all required fields.', 'sygraphe-product-inquiry-mode-for-woocommerce' )
+				esc_html__( 'Please fill in all required fields.', 'sygraphe-product-inquiry-for-woocommerce' )
 			);
 		}
 
 		if ( ! is_email( $email ) ) {
 			wp_send_json_error(
-				esc_html__( 'Please enter a valid email address.', 'sygraphe-product-inquiry-mode-for-woocommerce' )
+				esc_html__( 'Please enter a valid email address.', 'sygraphe-product-inquiry-for-woocommerce' )
 			);
 		}
 
@@ -188,13 +188,13 @@ class Ajax {
 		$product_link = $wc_product ? $wc_product->get_permalink() : '';
 
 		/* translators: %s: Product name. */
-		$subject = sprintf( esc_html__( 'Interest for the product: %s', 'sygraphe-product-inquiry-mode-for-woocommerce' ), $product_name );
+		$subject = sprintf( esc_html__( 'Interest for the product: %s', 'sygraphe-product-inquiry-for-woocommerce' ), $product_name );
 
-		$body  = sprintf( "%s: %s\n", esc_html__( 'Name', 'sygraphe-product-inquiry-mode-for-woocommerce' ), $name );
-		$body .= sprintf( "%s: %s\n", esc_html__( 'Email', 'sygraphe-product-inquiry-mode-for-woocommerce' ), $email );
+		$body  = sprintf( "%s: %s\n", esc_html__( 'Name', 'sygraphe-product-inquiry-for-woocommerce' ), $name );
+		$body .= sprintf( "%s: %s\n", esc_html__( 'Email', 'sygraphe-product-inquiry-for-woocommerce' ), $email );
 
 		if ( ! empty( $phone ) ) {
-			$body .= sprintf( "%s: %s\n", esc_html__( 'Phone', 'sygraphe-product-inquiry-mode-for-woocommerce' ), $phone );
+			$body .= sprintf( "%s: %s\n", esc_html__( 'Phone', 'sygraphe-product-inquiry-for-woocommerce' ), $phone );
 		}
 
 		// Build the new Product line string: {ID} {Name} ({SKU}) - {Link}
@@ -206,11 +206,11 @@ class Ajax {
 		}
 
 		if ( ! empty( $product_link ) ) {
-			$product_line .= "\n" . esc_html__( 'Link:', 'sygraphe-product-inquiry-mode-for-woocommerce' ) . ' ' . $product_link;
+			$product_line .= "\n" . esc_html__( 'Link:', 'sygraphe-product-inquiry-for-woocommerce' ) . ' ' . $product_link;
 		}
 
-		$body .= sprintf( "\n%s: %s\n", esc_html__( 'Product', 'sygraphe-product-inquiry-mode-for-woocommerce' ), $product_line );
-		$body .= sprintf( "\n%s:\n%s\n", esc_html__( 'Message', 'sygraphe-product-inquiry-mode-for-woocommerce' ), $message );
+		$body .= sprintf( "\n%s: %s\n", esc_html__( 'Product', 'sygraphe-product-inquiry-for-woocommerce' ), $product_line );
+		$body .= sprintf( "\n%s:\n%s\n", esc_html__( 'Message', 'sygraphe-product-inquiry-for-woocommerce' ), $message );
 
 		$headers = array(
 			'Content-Type: text/plain; charset=UTF-8',
@@ -221,11 +221,11 @@ class Ajax {
 
 		if ( $sent ) {
 			wp_send_json_success(
-				esc_html__( 'Thank you! Your message has been sent successfully.', 'sygraphe-product-inquiry-mode-for-woocommerce' )
+				esc_html__( 'Thank you! Your message has been sent successfully.', 'sygraphe-product-inquiry-for-woocommerce' )
 			);
 		} else {
 			wp_send_json_error(
-				esc_html__( 'An error occurred while sending your message. Please try again.', 'sygraphe-product-inquiry-mode-for-woocommerce' )
+				esc_html__( 'An error occurred while sending your message. Please try again.', 'sygraphe-product-inquiry-for-woocommerce' )
 			);
 		}
 	}

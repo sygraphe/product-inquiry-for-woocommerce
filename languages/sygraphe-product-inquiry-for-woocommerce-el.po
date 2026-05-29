@@ -1,0 +1,901 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: WC Hide Price & Ask Button Pro 1.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-03-29 20:53+0300\n"
+"Last-Translator: Antigravity\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+""
+
+#. translators: %s: WooCommerce plugin name.
+#: wc-hide-price-ask-button.php:58
+#, php-format
+msgid "%s requires WooCommerce to be installed and active."
+msgstr "Î¤Î¿ %s Î±Ï€Î±Î¹Ï„ÎµÎ¯ Ï„Î¿ WooCommerce Î½Î± ÎµÎ¯Î½Î±Î¹ ÎµÎ³ÎºÎ±Ï„ÎµÏƒÏ„Î·Î¼Î­Î½Î¿ ÎºÎ±Î¹ ÎµÎ½ÎµÏÎ³ÏŒ."
+
+#: includes/class-admin.php:44 includes/class-admin.php:45
+msgid "WC Hide Price"
+msgstr "WC Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î¤Î¹Î¼Î®Ï‚"
+
+#: includes/class-admin.php:55 includes/class-admin.php:56
+#: includes/class-admin.php:158
+msgid "Hide Product Price"
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î¤Î¹Î¼Î®Ï‚ Î ÏÎ¿ÏŠÏŒÎ½Ï„Î¿Ï‚"
+
+#: includes/class-admin.php:64 includes/class-admin.php:65
+#: includes/class-admin.php:229
+msgid "Hide Category Prices"
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î¤Î¹Î¼ÏŽÎ½ ÎšÎ±Ï„Î·Î³Î¿ÏÎ¯Î±Ï‚"
+
+#: includes/class-admin.php:73 includes/class-admin.php:74
+#: includes/class-admin.php:365
+msgid "Button Settings"
+msgstr "Î¡Ï…Î¸Î¼Î¯ÏƒÎµÎ¹Ï‚ ÎšÎ¿Ï…Î¼Ï€Î¹Î¿Ï"
+
+#: includes/class-admin.php:82 includes/class-admin.php:83
+msgid "About"
+msgstr "Î£Ï‡ÎµÏ„Î¹ÎºÎ¬"
+
+#: includes/class-admin.php:135
+msgid "Searchingâ€¦"
+msgstr "Î‘Î½Î±Î¶Î®Ï„Î·ÏƒÎ·â€¦"
+
+#: includes/class-admin.php:136
+msgid "No results found."
+msgstr "Î”ÎµÎ½ Î²ÏÎ­Î¸Î·ÎºÎ±Î½ Î±Ï€Î¿Ï„ÎµÎ»Î­ÏƒÎ¼Î±Ï„Î±."
+
+#: includes/class-admin.php:137 includes/class-admin.php:197
+#: includes/class-admin.php:265 includes/class-admin.php:325
+msgid "Remove"
+msgstr "Î‘Ï†Î±Î¯ÏÎµÏƒÎ·"
+
+#: includes/class-admin.php:138
+msgid "Savingâ€¦"
+msgstr "Î‘Ï€Î¿Î¸Î®ÎºÎµÏ…ÏƒÎ·â€¦"
+
+#: includes/class-admin.php:139 includes/class-ajax.php:218
+#: includes/class-ajax.php:237 includes/class-ajax.php:275
+#: includes/class-ajax.php:310
+msgid "Changes saved successfully."
+msgstr "ÎŸÎ¹ Î±Î»Î»Î±Î³Î­Ï‚ Î±Ï€Î¿Î¸Î·ÎºÎµÏÏ„Î·ÎºÎ±Î½ ÎµÏ€Î¹Ï„Ï…Ï‡ÏŽÏ‚."
+
+#: includes/class-admin.php:140
+msgid "An error occurred while saving."
+msgstr "Î Î±ÏÎ¿Ï…ÏƒÎ¹Î¬ÏƒÏ„Î·ÎºÎµ ÏƒÏ†Î¬Î»Î¼Î± ÎºÎ±Ï„Î¬ Ï„Î·Î½ Î±Ï€Î¿Î¸Î®ÎºÎµÏ…ÏƒÎ·."
+
+#: includes/class-admin.php:141 includes/class-admin.php:173
+#: includes/class-admin.php:244 includes/class-admin.php:301
+msgid "Search"
+msgstr "Î‘Î½Î±Î¶Î®Ï„Î·ÏƒÎ·"
+
+#: includes/class-admin.php:159
+msgid "Search for products by name, ID, or SKU and add them to the hidden price list."
+msgstr "Î‘Î½Î±Î¶Î·Ï„Î®ÏƒÏ„Îµ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î± ÎºÎ±Ï„Î¬ ÏŒÎ½Î¿Î¼Î±, ID Î® SKU ÎºÎ±Î¹ Ï€ÏÎ¿ÏƒÎ¸Î­ÏƒÏ„Îµ Ï„Î± ÏƒÏ„Î· Î»Î¯ÏƒÏ„Î± ÎºÏÏ…Ï†ÏŽÎ½ Ï„Î¹Î¼ÏŽÎ½."
+
+#: includes/class-admin.php:162
+msgid "Search Products"
+msgstr "Î‘Î½Î±Î¶Î®Ï„Î·ÏƒÎ· Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½"
+
+#: includes/class-admin.php:168 includes/class-admin.php:296
+msgid "Type a product name, ID, or SKUâ€¦"
+msgstr "Î Î»Î·ÎºÏ„ÏÎ¿Î»Î¿Î³Î®ÏƒÏ„Îµ ÏŒÎ½Î¿Î¼Î± Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î¿Ï‚, ID Î® SKUâ€¦"
+
+#: includes/class-admin.php:180
+msgid "Products"
+msgstr "Î ÏÎ¿ÏŠÏŒÎ½Ï„Î±"
+
+#: includes/class-admin.php:209
+msgid "Save Products"
+msgstr "Î‘Ï€Î¿Î¸Î®ÎºÎµÏ…ÏƒÎ· Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½"
+
+#: includes/class-admin.php:230
+msgid "Search for product categories by name or ID and add them to the hidden price list."
+msgstr "Î‘Î½Î±Î¶Î·Ï„Î®ÏƒÏ„Îµ ÎºÎ±Ï„Î·Î³Î¿ÏÎ¯ÎµÏ‚ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ ÎºÎ±Ï„Î¬ ÏŒÎ½Î¿Î¼Î± Î® ID ÎºÎ±Î¹ Ï€ÏÎ¿ÏƒÎ¸Î­ÏƒÏ„Îµ Ï„Î¹Ï‚ ÏƒÏ„Î· Î»Î¯ÏƒÏ„Î± ÎºÏÏ…Ï†ÏŽÎ½ Ï„Î¹Î¼ÏŽÎ½."
+
+#: includes/class-admin.php:233
+msgid "Search Categories"
+msgstr "Î‘Î½Î±Î¶Î®Ï„Î·ÏƒÎ· ÎšÎ±Ï„Î·Î³Î¿ÏÎ¹ÏŽÎ½"
+
+#: includes/class-admin.php:239
+msgid "Type a category name or IDâ€¦"
+msgstr "Î Î»Î·ÎºÏ„ÏÎ¿Î»Î¿Î³Î®ÏƒÏ„Îµ ÏŒÎ½Î¿Î¼Î± ÎºÎ±Ï„Î·Î³Î¿ÏÎ¯Î±Ï‚ Î® IDâ€¦"
+
+#: includes/class-admin.php:251
+msgid "Categories"
+msgstr "ÎšÎ±Ï„Î·Î³Î¿ÏÎ¯ÎµÏ‚"
+
+#: includes/class-admin.php:277
+msgid "Save Categories"
+msgstr "Î‘Ï€Î¿Î¸Î®ÎºÎµÏ…ÏƒÎ· ÎšÎ±Ï„Î·Î³Î¿ÏÎ¹ÏŽÎ½"
+
+#: includes/class-admin.php:383 includes/class-admin.php:444
+msgid "Default:"
+msgstr "Î ÏÎ¿ÎµÏ€Î¹Î»Î¿Î³Î®:"
+
+#: includes/class-admin.php:389 includes/class-admin.php:450
+msgid "Custom:"
+msgstr "Î ÏÎ¿ÏƒÎ±ÏÎ¼Î¿ÏƒÎ¼Î­Î½Î¿:"
+
+#: includes/class-admin.php:392 includes/class-admin.php:453
+msgid "Maximum 30 characters."
+msgstr "ÎœÎ­Î³Î¹ÏƒÏ„Î¿ 30 Ï‡Î±ÏÎ±ÎºÏ„Î®ÏÎµÏ‚."
+
+#: includes/class-admin.php:546
+msgid "Replace Elements On"
+msgstr "Î‘Î½Ï„Î¹ÎºÎ±Ï„Î¬ÏƒÏ„Î±ÏƒÎ· Î£Ï„Î¿Î¹Ï‡ÎµÎ¯Ï‰Î½ ÏƒÎµ"
+
+#: includes/class-admin.php:551
+msgid "Product Page"
+msgstr "Î£ÎµÎ»Î¯Î´Î± Î ÏÎ¿ÏŠÏŒÎ½Ï„Î¿Ï‚"
+
+#: includes/class-admin.php:556
+msgid "Product List / Archive"
+msgstr "Î›Î¯ÏƒÏ„Î± Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ / Î‘ÏÏ‡ÎµÎ¯Î¿"
+
+#: includes/class-admin.php:565
+msgid "Save Settings"
+msgstr "Î‘Ï€Î¿Î¸Î®ÎºÎµÏ…ÏƒÎ· Î¡Ï…Î¸Î¼Î¯ÏƒÎµÏ‰Î½"
+
+#: includes/class-admin.php:347
+msgid "About Sygraphe Product Inquiry for WooCommerce"
+msgstr "Î£Ï‡ÎµÏ„Î¹ÎºÎ¬ Î¼Îµ Ï„Î¿ Sygraphe Product Inquiry Î³Î¹Î± Ï„Î¿ WooCommerce"
+
+#: includes/class-admin.php:898
+msgid "About This Plugin"
+msgstr "Î£Ï‡ÎµÏ„Î¹ÎºÎ¬ Î¼Îµ Î±Ï…Ï„ÏŒ Ï„Î¿ Î ÏÏŒÏƒÎ¸ÎµÏ„Î¿"
+
+#: includes/class-admin.php:352
+msgid "Sygraphe Product Inquiry for WooCommerce is a powerful WooCommerce extension that transforms your online store into a quote-based or inquiry-driven sales platform. Perfect for B2B stores, wholesale businesses, custom product manufacturers, or any shop that prefers personal communication before sales."
+msgstr "Î¤Î¿ Sygraphe Product Inquiry Î³Î¹Î± Ï„Î¿ WooCommerce ÎµÎ¯Î½Î±Î¹ Î¼Î¹Î± Î¹ÏƒÏ‡Ï…ÏÎ® ÎµÏ€Î­ÎºÏ„Î±ÏƒÎ· WooCommerce Ï€Î¿Ï… Î¼ÎµÏ„Î±Ï„ÏÎ­Ï€ÎµÎ¹ Ï„Î¿ Î·Î»ÎµÎºÏ„ÏÎ¿Î½Î¹ÎºÏŒ ÏƒÎ±Ï‚ ÎºÎ±Ï„Î¬ÏƒÏ„Î·Î¼Î± ÏƒÎµ Ï€Î»Î±Ï„Ï†ÏŒÏÎ¼Î± Ï€Ï‰Î»Î®ÏƒÎµÏ‰Î½ Î²Î±ÏƒÎ¹ÏƒÎ¼Î­Î½Î· ÏƒÎµ Ï€ÏÎ¿ÏƒÏ†Î¿ÏÎ­Ï‚ Î® ÎµÏÏ‰Ï„Î®ÏƒÎµÎ¹Ï‚. Î™Î´Î±Î½Î¹ÎºÏŒ Î³Î¹Î± ÎºÎ±Ï„Î±ÏƒÏ„Î®Î¼Î±Ï„Î± B2B, Ï‡Î¿Î½Î´ÏÎ¹ÎºÎ­Ï‚ ÎµÏ€Î¹Ï‡ÎµÎ¹ÏÎ®ÏƒÎµÎ¹Ï‚, ÎºÎ±Ï„Î±ÏƒÎºÎµÏ…Î±ÏƒÏ„Î­Ï‚ Ï€ÏÎ¿ÏƒÎ±ÏÎ¼Î¿ÏƒÎ¼Î­Î½Ï‰Î½ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ Î® Î¿Ï€Î¿Î¹Î¿Î´Î®Ï€Î¿Ï„Îµ ÎºÎ±Ï„Î¬ÏƒÏ„Î·Î¼Î± Ï€Î¿Ï… Ï€ÏÎ¿Ï„Î¹Î¼Î¬ Ï„Î·Î½ Ï€ÏÎ¿ÏƒÏ‰Ï€Î¹ÎºÎ® ÎµÏ€Î¹ÎºÎ¿Î¹Î½Ï‰Î½Î¯Î± Ï€ÏÎ¹Î½ Î±Ï€ÏŒ Ï„Î¹Ï‚ Ï€Ï‰Î»Î®ÏƒÎµÎ¹Ï‚."
+
+#: includes/class-admin.php:355
+msgid "Instead of displaying prices and \"Add to Cart\" buttons, this plugin replaces them with customizable inquiry buttons that open a professional contact form."
+msgstr "Î‘Î½Ï„Î¯ Î³Î¹Î± Ï„Î·Î½ ÎµÎ¼Ï†Î¬Î½Î¹ÏƒÎ· Ï„Î¹Î¼ÏŽÎ½ ÎºÎ±Î¹ ÎºÎ¿Ï…Î¼Ï€Î¹ÏŽÎ½ \"Î ÏÎ¿ÏƒÎ¸Î®ÎºÎ· ÏƒÏ„Î¿ ÎšÎ±Î»Î¬Î¸Î¹\", Î±Ï…Ï„ÏŒ Ï„Î¿ Ï€ÏÏŒÏƒÎ¸ÎµÏ„Î¿ Ï„Î± Î±Î½Ï„Î¹ÎºÎ±Î¸Î¹ÏƒÏ„Î¬ Î¼Îµ Ï€ÏÎ¿ÏƒÎ±ÏÎ¼ÏŒÏƒÎ¹Î¼Î± ÎºÎ¿Ï…Î¼Ï€Î¹Î¬ ÎµÏÏ‰Ï„Î®ÏƒÎµÏ‰Î½ Ï€Î¿Ï… Î±Î½Î¿Î¯Î³Î¿Ï…Î½ Î¼Î¹Î± ÎµÏ€Î±Î³Î³ÎµÎ»Î¼Î±Ï„Î¹ÎºÎ® Ï†ÏŒÏÎ¼Î± ÎµÏ€Î¹ÎºÎ¿Î¹Î½Ï‰Î½Î¯Î±Ï‚."
+
+#: includes/class-admin.php:908
+msgid "Key Features"
+msgstr "Î’Î±ÏƒÎ¹ÎºÎ¬ Î§Î±ÏÎ±ÎºÏ„Î·ÏÎ¹ÏƒÏ„Î¹ÎºÎ¬"
+
+#: includes/class-admin.php:910
+msgid "Flexible Price Hiding Options"
+msgstr "Î•Ï…Î­Î»Î¹ÎºÏ„ÎµÏ‚ Î•Ï€Î¹Î»Î¿Î³Î­Ï‚ Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ·Ï‚ Î¤Î¹Î¼ÏŽÎ½"
+
+#: includes/class-admin.php:912
+msgid "Hide prices from all products globally with a single click"
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Ï„Î¹Î¼ÏŽÎ½ Î±Ï€ÏŒ ÏŒÎ»Î± Ï„Î± Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î± Ï€Î±Î³ÎºÎ¿ÏƒÎ¼Î¯Ï‰Ï‚ Î¼Îµ Î­Î½Î± ÎºÎ»Î¹Îº"
+
+#: includes/class-admin.php:913
+msgid "Hide prices from all product categories at once"
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Ï„Î¹Î¼ÏŽÎ½ Î±Ï€ÏŒ ÏŒÎ»ÎµÏ‚ Ï„Î¹Ï‚ ÎºÎ±Ï„Î·Î³Î¿ÏÎ¯ÎµÏ‚ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ Ï„Î±Ï…Ï„ÏŒÏ‡ÏÎ¿Î½Î±"
+
+#: includes/class-admin.php:914
+msgid "Select specific individual products to hide prices from"
+msgstr "Î•Ï€Î¹Î»Î­Î¾Ï„Îµ ÏƒÏ…Î³ÎºÎµÎºÏÎ¹Î¼Î­Î½Î± Î¼ÎµÎ¼Î¿Î½Ï‰Î¼Î­Î½Î± Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î± Î³Î¹Î± Î±Ï€ÏŒÎºÏÏ…ÏˆÎ· Ï„Î¹Î¼ÏŽÎ½"
+
+#: includes/class-admin.php:915
+msgid "Choose entire product categories to hide prices from"
+msgstr "Î•Ï€Î¹Î»Î­Î¾Ï„Îµ Î¿Î»ÏŒÎºÎ»Î·ÏÎµÏ‚ ÎºÎ±Ï„Î·Î³Î¿ÏÎ¯ÎµÏ‚ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ Î³Î¹Î± Î±Ï€ÏŒÎºÏÏ…ÏˆÎ· Ï„Î¹Î¼ÏŽÎ½"
+
+#: includes/class-admin.php:916
+msgid "Exclude specific products from category-based hiding rules"
+msgstr "Î•Î¾Î±Î¹ÏÎ­ÏƒÏ„Îµ ÏƒÏ…Î³ÎºÎµÎºÏÎ¹Î¼Î­Î½Î± Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î± Î±Ï€ÏŒ ÎºÎ±Î½ÏŒÎ½ÎµÏ‚ Î±Ï€ÏŒÎºÏÏ…ÏˆÎ·Ï‚ Î²Î±ÏƒÎ¹ÏƒÎ¼Î­Î½Î¿Ï…Ï‚ ÏƒÎµ ÎºÎ±Ï„Î·Î³Î¿ÏÎ¯ÎµÏ‚"
+
+#: includes/class-admin.php:917
+msgid "Search products by name, ID, or SKU for easy selection"
+msgstr "Î‘Î½Î±Î¶Î·Ï„Î®ÏƒÏ„Îµ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î± ÎºÎ±Ï„Î¬ ÏŒÎ½Î¿Î¼Î±, ID Î® SKU Î³Î¹Î± ÎµÏÎºÎ¿Î»Î· ÎµÏ€Î¹Î»Î¿Î³Î®"
+
+#: includes/class-admin.php:920
+msgid "Advanced Visibility Controls"
+msgstr "Î ÏÎ¿Î·Î³Î¼Î­Î½Î¿Î¹ ÎˆÎ»ÎµÎ³Ï‡Î¿Î¹ ÎŸÏÎ±Ï„ÏŒÏ„Î·Ï„Î±Ï‚"
+
+#: includes/class-admin.php:922
+msgid "Hide prices from everyone and show contact form"
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Ï„Î¹Î¼ÏŽÎ½ Î±Ï€ÏŒ ÏŒÎ»Î¿Ï…Ï‚ ÎºÎ±Î¹ ÎµÎ¼Ï†Î¬Î½Î¹ÏƒÎ· Ï†ÏŒÏÎ¼Î±Ï‚ ÎµÏ€Î¹ÎºÎ¿Î¹Î½Ï‰Î½Î¯Î±Ï‚"
+
+#: includes/class-admin.php:923
+msgid "Hide prices from guest users only, prompting them to log in"
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Ï„Î¹Î¼ÏŽÎ½ Î¼ÏŒÎ½Î¿ Î±Ï€ÏŒ ÎµÏ€Î¹ÏƒÎºÎ­Ï€Ï„ÎµÏ‚ Ï‡ÏÎ®ÏƒÏ„ÎµÏ‚, Ï€ÏÎ¿Ï„ÏÎ­Ï€Î¿Î½Ï„Î¬Ï‚ Ï„Î¿Ï…Ï‚ Î½Î± ÏƒÏ…Î½Î´ÎµÎ¸Î¿ÏÎ½"
+
+#: includes/class-admin.php:924
+msgid "Hide prices from specific WordPress user roles (Customer, Subscriber, etc.)"
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Ï„Î¹Î¼ÏŽÎ½ Î±Ï€ÏŒ ÏƒÏ…Î³ÎºÎµÎºÏÎ¹Î¼Î­Î½Î¿Ï…Ï‚ ÏÏŒÎ»Î¿Ï…Ï‚ Ï‡ÏÎ·ÏƒÏ„ÏŽÎ½ WordPress (Î ÎµÎ»Î¬Ï„Î·Ï‚, Î£Ï…Î½Î´ÏÎ¿Î¼Î·Ï„Î®Ï‚, ÎºÎ»Ï€.)"
+
+#: includes/class-admin.php:925
+msgid "Show prices to logged-in users while hiding from guests"
+msgstr "Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ· Ï„Î¹Î¼ÏŽÎ½ ÏƒÎµ ÏƒÏ…Î½Î´ÎµÎ´ÎµÎ¼Î­Î½Î¿Ï…Ï‚ Ï‡ÏÎ®ÏƒÏ„ÎµÏ‚ ÎµÎ½ÏŽ Î±Ï€Î¿ÎºÏÏÏ€Ï„Î¿Î½Ï„Î±Î¹ Î±Ï€ÏŒ Ï„Î¿Ï…Ï‚ ÎµÏ€Î¹ÏƒÎºÎ­Ï€Ï„ÎµÏ‚"
+
+#: includes/class-admin.php:926
+msgid "Configure custom login URLs or use WooCommerce My Account page"
+msgstr "Î¡Ï…Î¸Î¼Î¯ÏƒÏ„Îµ Ï€ÏÎ¿ÏƒÎ±ÏÎ¼Î¿ÏƒÎ¼Î­Î½Î± URL ÏƒÏÎ½Î´ÎµÏƒÎ·Ï‚ Î® Ï‡ÏÎ·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹Î®ÏƒÏ„Îµ Ï„Î· ÏƒÎµÎ»Î¯Î´Î± ÎŸ Î›Î¿Î³Î±ÏÎ¹Î±ÏƒÎ¼ÏŒÏ‚ Î¼Î¿Ï… Ï„Î¿Ï… WooCommerce"
+
+#: includes/class-admin.php:929
+msgid "Button Customization & Theme Integration"
+msgstr "Î ÏÎ¿ÏƒÎ±ÏÎ¼Î¿Î³Î® ÎšÎ¿Ï…Î¼Ï€Î¹ÏŽÎ½ & Î•Î½ÏƒÏ‰Î¼Î¬Ï„Ï‰ÏƒÎ· Î˜Î­Î¼Î±Ï„Î¿Ï‚"
+
+#: includes/class-admin.php:931
+msgid "Customize button text for product pages, archive pages, and login prompts"
+msgstr "Î ÏÎ¿ÏƒÎ±ÏÎ¼ÏŒÏƒÏ„Îµ Ï„Î¿ ÎºÎµÎ¯Î¼ÎµÎ½Î¿ ÎºÎ¿Ï…Î¼Ï€Î¹Î¿Ï Î³Î¹Î± ÏƒÎµÎ»Î¯Î´ÎµÏ‚ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½, ÏƒÎµÎ»Î¯Î´ÎµÏ‚ Î±ÏÏ‡ÎµÎ¯Î¿Ï… ÎºÎ±Î¹ Ï€ÏÎ¿Ï„ÏÎ¿Ï€Î­Ï‚ ÏƒÏÎ½Î´ÎµÏƒÎ·Ï‚"
+
+#: includes/class-admin.php:932
+msgid "Choose between <button> or <a> HTML tags for optimal theme compatibility"
+msgstr "Î•Ï€Î¹Î»Î­Î¾Ï„Îµ Î¼ÎµÏ„Î±Î¾Ï ÎµÏ„Î¹ÎºÎµÏ„ÏŽÎ½ HTML <button> Î® <a> Î³Î¹Î± Î²Î­Î»Ï„Î¹ÏƒÏ„Î· ÏƒÏ…Î¼Î²Î±Ï„ÏŒÏ„Î·Ï„Î± Î¸Î­Î¼Î±Ï„Î¿Ï‚"
+
+#: includes/class-admin.php:933
+msgid "Add custom CSS classes to buttons for advanced styling"
+msgstr "Î ÏÎ¿ÏƒÎ¸Î­ÏƒÏ„Îµ Ï€ÏÎ¿ÏƒÎ±ÏÎ¼Î¿ÏƒÎ¼Î­Î½ÎµÏ‚ ÎºÎ»Î¬ÏƒÎµÎ¹Ï‚ CSS ÏƒÏ„Î± ÎºÎ¿Ï…Î¼Ï€Î¹Î¬ Î³Î¹Î± Ï€ÏÎ¿Î·Î³Î¼Î­Î½Î· Î¼Î¿ÏÏ†Î¿Ï€Î¿Î¯Î·ÏƒÎ·"
+
+#: includes/class-admin.php:934
+msgid "Select from WordPress Dashicons library for button icons"
+msgstr "Î•Ï€Î¹Î»Î­Î¾Ï„Îµ Î±Ï€ÏŒ Ï„Î· Î²Î¹Î²Î»Î¹Î¿Î¸Î®ÎºÎ· Dashicons Ï„Î¿Ï… WordPress Î³Î¹Î± ÎµÎ¹ÎºÎ¿Î½Î¯Î´Î¹Î± ÎºÎ¿Ï…Î¼Ï€Î¹ÏŽÎ½"
+
+#: includes/class-admin.php:935
+msgid "Control button alignment: left, center, right, or auto"
+msgstr "Î•Î»Î­Î³Î¾Ï„Îµ Ï„Î· ÏƒÏ„Î¿Î¯Ï‡Î¹ÏƒÎ· ÎºÎ¿Ï…Î¼Ï€Î¹Î¿Ï: Î±ÏÎ¹ÏƒÏ„ÎµÏÎ¬, ÎºÎ­Î½Ï„ÏÎ¿, Î´ÎµÎ¾Î¹Î¬ Î® Î±Ï…Ï„ÏŒÎ¼Î±Ï„Î·"
+
+#: includes/class-admin.php:936
+msgid "Separate customization for product pages and archive/category pages"
+msgstr "ÎžÎµÏ‡Ï‰ÏÎ¹ÏƒÏ„Î® Ï€ÏÎ¿ÏƒÎ±ÏÎ¼Î¿Î³Î® Î³Î¹Î± ÏƒÎµÎ»Î¯Î´ÎµÏ‚ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ ÎºÎ±Î¹ ÏƒÎµÎ»Î¯Î´ÎµÏ‚ Î±ÏÏ‡ÎµÎ¯Î¿Ï…/ÎºÎ±Ï„Î·Î³Î¿ÏÎ¯Î±Ï‚"
+
+#: includes/class-admin.php:937
+msgid "Enable/disable button replacement on product pages or archives independently"
+msgstr "Î•Î½ÎµÏÎ³Î¿Ï€Î¿Î¯Î·ÏƒÎ·/Î±Ï€ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¯Î·ÏƒÎ· Î±Î½Ï„Î¹ÎºÎ±Ï„Î¬ÏƒÏ„Î±ÏƒÎ·Ï‚ ÎºÎ¿Ï…Î¼Ï€Î¹Î¿Ï ÏƒÎµ ÏƒÎµÎ»Î¯Î´ÎµÏ‚ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ Î® Î±ÏÏ‡ÎµÎ¯Î± Î±Î½ÎµÎ¾Î¬ÏÏ„Î·Ï„Î±"
+
+#: includes/class-admin.php:940
+msgid "Contact Form & Inquiry Management"
+msgstr "Î¦ÏŒÏÎ¼Î± Î•Ï€Î¹ÎºÎ¿Î¹Î½Ï‰Î½Î¯Î±Ï‚ & Î”Î¹Î±Ï‡ÎµÎ¯ÏÎ¹ÏƒÎ· Î•ÏÏ‰Ï„Î®ÏƒÎµÏ‰Î½"
+
+#: includes/class-admin.php:942
+msgid "Professional AJAX-powered modal contact form"
+msgstr "Î•Ï€Î±Î³Î³ÎµÎ»Î¼Î±Ï„Î¹ÎºÎ® Ï†ÏŒÏÎ¼Î± ÎµÏ€Î¹ÎºÎ¿Î¹Î½Ï‰Î½Î¯Î±Ï‚ modal Î¼Îµ Ï„ÎµÏ‡Î½Î¿Î»Î¿Î³Î¯Î± AJAX"
+
+#: includes/class-admin.php:943
+msgid "No page refresh required - smooth user experience"
+msgstr "Î”ÎµÎ½ Î±Ï€Î±Î¹Ï„ÎµÎ¯Ï„Î±Î¹ Î±Î½Î±Î½Î­Ï‰ÏƒÎ· ÏƒÎµÎ»Î¯Î´Î±Ï‚ - Î¿Î¼Î±Î»Î® ÎµÎ¼Ï€ÎµÎ¹ÏÎ¯Î± Ï‡ÏÎ®ÏƒÏ„Î·"
+
+#: includes/class-admin.php:944
+msgid "Collects customer name, email, phone (optional), and message"
+msgstr "Î£Ï…Î»Î»Î­Î³ÎµÎ¹ ÏŒÎ½Î¿Î¼Î± Ï€ÎµÎ»Î¬Ï„Î·, email, Ï„Î·Î»Î­Ï†Ï‰Î½Î¿ (Ï€ÏÎ¿Î±Î¹ÏÎµÏ„Î¹ÎºÏŒ) ÎºÎ±Î¹ Î¼Î®Î½Ï…Î¼Î±"
+
+#: includes/class-admin.php:945
+msgid "Automatically includes product name, ID, SKU, and link in inquiry emails"
+msgstr "Î ÎµÏÎ¹Î»Î±Î¼Î²Î¬Î½ÎµÎ¹ Î±Ï…Ï„ÏŒÎ¼Î±Ï„Î± ÏŒÎ½Î¿Î¼Î± Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î¿Ï‚, ID, SKU ÎºÎ±Î¹ ÏƒÏÎ½Î´ÎµÏƒÎ¼Î¿ ÏƒÏ„Î± email ÎµÏÏ‰Ï„Î®ÏƒÎµÏ‰Î½"
+
+#: includes/class-admin.php:946
+msgid "Client-side and server-side form validation"
+msgstr "Î•Ï€Î¹ÎºÏÏÏ‰ÏƒÎ· Ï†ÏŒÏÎ¼Î±Ï‚ Î±Ï€ÏŒ Ï„Î·Î½ Ï€Î»ÎµÏ…ÏÎ¬ Ï„Î¿Ï… Ï€ÎµÎ»Î¬Ï„Î· ÎºÎ±Î¹ Ï„Î¿Ï… Î´Î¹Î±ÎºÎ¿Î¼Î¹ÏƒÏ„Î®"
+
+#: includes/class-admin.php:947
+msgid "Send inquiries to WordPress admin email or custom email address"
+msgstr "Î‘Ï€Î¿ÏƒÏ„Î¿Î»Î® ÎµÏÏ‰Ï„Î®ÏƒÎµÏ‰Î½ ÏƒÏ„Î¿ email Î´Î¹Î±Ï‡ÎµÎ¹ÏÎ¹ÏƒÏ„Î® WordPress Î® ÏƒÎµ Ï€ÏÎ¿ÏƒÎ±ÏÎ¼Î¿ÏƒÎ¼Î­Î½Î· Î´Î¹ÎµÏÎ¸Ï…Î½ÏƒÎ· email"
+
+#: includes/class-admin.php:948
+msgid "Choose between modal form or direct link to product page on archives"
+msgstr "Î•Ï€Î¹Î»Î­Î¾Ï„Îµ Î¼ÎµÏ„Î±Î¾Ï Ï†ÏŒÏÎ¼Î±Ï‚ modal Î® Î±Ï€ÎµÏ…Î¸ÎµÎ¯Î±Ï‚ ÏƒÏ…Î½Î´Î­ÏƒÎ¼Î¿Ï… ÏƒÏ„Î· ÏƒÎµÎ»Î¯Î´Î± Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î¿Ï‚ ÏƒÎµ Î±ÏÏ‡ÎµÎ¯Î±"
+
+#: includes/class-admin.php:951
+msgid "Developer & Technical Features"
+msgstr "Î§Î±ÏÎ±ÎºÏ„Î·ÏÎ¹ÏƒÏ„Î¹ÎºÎ¬ Î ÏÎ¿Î³ÏÎ±Î¼Î¼Î±Ï„Î¹ÏƒÏ„Î® & Î¤ÎµÏ‡Î½Î¹ÎºÎ¬"
+
+#: includes/class-admin.php:953
+msgid "Fully translatable with complete i18n support"
+msgstr "Î Î»Î®ÏÏ‰Ï‚ Î¼ÎµÏ„Î±Ï†ÏÎ¬ÏƒÎ¹Î¼Î¿ Î¼Îµ Ï€Î»Î®ÏÎ· Ï…Ï€Î¿ÏƒÏ„Î®ÏÎ¹Î¾Î· i18n"
+
+#: includes/class-admin.php:954
+msgid "Compatible with WooCommerce 5.0+ and tested up to 9.0"
+msgstr "Î£Ï…Î¼Î²Î±Ï„ÏŒ Î¼Îµ WooCommerce 5.0+ ÎºÎ±Î¹ Î´Î¿ÎºÎ¹Î¼Î±ÏƒÎ¼Î­Î½Î¿ Î­Ï‰Ï‚ 9.0"
+
+#: includes/class-admin.php:955
+msgid "Works with variable products and product variations"
+msgstr "Î›ÎµÎ¹Ï„Î¿Ï…ÏÎ³ÎµÎ¯ Î¼Îµ Î¼ÎµÏ„Î±Î²Î»Î·Ï„Î¬ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î± ÎºÎ±Î¹ Ï€Î±ÏÎ±Î»Î»Î±Î³Î­Ï‚ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½"
+
+#: includes/class-admin.php:956
+msgid "Clean, well-documented code following WordPress coding standards"
+msgstr "ÎšÎ±Î¸Î±ÏÏŒÏ‚, ÎºÎ±Î»Î¬ Ï„ÎµÎºÎ¼Î·ÏÎ¹Ï‰Î¼Î­Î½Î¿Ï‚ ÎºÏŽÎ´Î¹ÎºÎ±Ï‚ Ï€Î¿Ï… Î±ÎºÎ¿Î»Î¿Ï…Î¸ÎµÎ¯ Ï„Î± Ï€ÏÏŒÏ„Ï…Ï€Î± ÎºÏ‰Î´Î¹ÎºÎ¿Ï€Î¿Î¯Î·ÏƒÎ·Ï‚ WordPress"
+
+#: includes/class-admin.php:957
+msgid "Lightweight and optimized for performance"
+msgstr "Î•Î»Î±Ï†ÏÏ ÎºÎ±Î¹ Î²ÎµÎ»Ï„Î¹ÏƒÏ„Î¿Ï€Î¿Î¹Î·Î¼Î­Î½Î¿ Î³Î¹Î± Î±Ï€ÏŒÎ´Î¿ÏƒÎ·"
+
+#: includes/class-admin.php:958
+msgid "No conflicts with popular themes and page builders"
+msgstr "Î§Ï‰ÏÎ¯Ï‚ ÏƒÏ…Î³ÎºÏÎ¿ÏÏƒÎµÎ¹Ï‚ Î¼Îµ Î´Î·Î¼Î¿Ï†Î¹Î»Î® Î¸Î­Î¼Î±Ï„Î± ÎºÎ±Î¹ page builders"
+
+#: includes/class-admin.php:963
+msgid "Perfect For"
+msgstr "Î™Î´Î±Î½Î¹ÎºÏŒ Î“Î¹Î±"
+
+#: includes/class-admin.php:965
+msgid "B2B and wholesale businesses requiring quote requests"
+msgstr "Î•Ï€Î¹Ï‡ÎµÎ¹ÏÎ®ÏƒÎµÎ¹Ï‚ B2B ÎºÎ±Î¹ Ï‡Î¿Î½Î´ÏÎ¹ÎºÎ®Ï‚ Ï€Î¿Ï… Î±Ï€Î±Î¹Ï„Î¿ÏÎ½ Î±Î¹Ï„Î®Î¼Î±Ï„Î± Ï€ÏÎ¿ÏƒÏ†Î¿ÏÎ¬Ï‚"
+
+#: includes/class-admin.php:966
+msgid "Custom product manufacturers with variable pricing"
+msgstr "ÎšÎ±Ï„Î±ÏƒÎºÎµÏ…Î±ÏƒÏ„Î­Ï‚ Ï€ÏÎ¿ÏƒÎ±ÏÎ¼Î¿ÏƒÎ¼Î­Î½Ï‰Î½ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ Î¼Îµ Î¼ÎµÏ„Î±Î²Î»Î·Ï„Î® Ï„Î¹Î¼Î¿Î»ÏŒÎ³Î·ÏƒÎ·"
+
+#: includes/class-admin.php:967
+msgid "Exclusive or luxury product retailers"
+msgstr "Î›Î¹Î±Î½Î¿Ï€Ï‰Î»Î·Ï„Î­Ï‚ Î±Ï€Î¿ÎºÎ»ÎµÎ¹ÏƒÏ„Î¹ÎºÏŽÎ½ Î® Ï€Î¿Î»Ï…Ï„ÎµÎ»ÏŽÎ½ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½"
+
+#: includes/class-admin.php:968
+msgid "Stores with member-only or role-based pricing"
+msgstr "ÎšÎ±Ï„Î±ÏƒÏ„Î®Î¼Î±Ï„Î± Î¼Îµ Ï„Î¹Î¼Î¿Î»ÏŒÎ³Î·ÏƒÎ· Î¼ÏŒÎ½Î¿ Î³Î¹Î± Î¼Î­Î»Î· Î® Î²Î±ÏƒÎ¹ÏƒÎ¼Î­Î½Î· ÏƒÎµ ÏÏŒÎ»Î¿Ï…Ï‚"
+
+#: includes/class-admin.php:969
+msgid "Businesses preferring personal consultation before sales"
+msgstr "Î•Ï€Î¹Ï‡ÎµÎ¹ÏÎ®ÏƒÎµÎ¹Ï‚ Ï€Î¿Ï… Ï€ÏÎ¿Ï„Î¹Î¼Î¿ÏÎ½ Ï€ÏÎ¿ÏƒÏ‰Ï€Î¹ÎºÎ® Î´Î¹Î±Î²Î¿ÏÎ»ÎµÏ…ÏƒÎ· Ï€ÏÎ¹Î½ Î±Ï€ÏŒ Ï„Î¹Ï‚ Ï€Ï‰Î»Î®ÏƒÎµÎ¹Ï‚"
+
+#: includes/class-admin.php:974
+msgid "Important Notice"
+msgstr "Î£Î·Î¼Î±Î½Ï„Î¹ÎºÎ® Î•Î¹Î´Î¿Ï€Î¿Î¯Î·ÏƒÎ·"
+
+#: includes/class-admin.php:976
+msgid "WordPress themes are built differently, and each theme may have its own unique structure and styling. While this plugin is designed to work with most themes, some features (such as button alignment or custom CSS classes) may not work as intended on certain themes due to theme-specific CSS overrides or layout structures."
+msgstr "Î¤Î± Î¸Î­Î¼Î±Ï„Î± WordPress ÎºÎ±Ï„Î±ÏƒÎºÎµÏ…Î¬Î¶Î¿Î½Ï„Î±Î¹ Î´Î¹Î±Ï†Î¿ÏÎµÏ„Î¹ÎºÎ¬ ÎºÎ±Î¹ ÎºÎ¬Î¸Îµ Î¸Î­Î¼Î± Î¼Ï€Î¿ÏÎµÎ¯ Î½Î± Î­Ï‡ÎµÎ¹ Ï„Î· Î´Î¹ÎºÎ® Ï„Î¿Ï… Î¼Î¿Î½Î±Î´Î¹ÎºÎ® Î´Î¿Î¼Î® ÎºÎ±Î¹ Î¼Î¿ÏÏ†Î¿Ï€Î¿Î¯Î·ÏƒÎ·. Î•Î½ÏŽ Î±Ï…Ï„ÏŒ Ï„Î¿ Ï€ÏÏŒÏƒÎ¸ÎµÏ„Î¿ Î­Ï‡ÎµÎ¹ ÏƒÏ‡ÎµÎ´Î¹Î±ÏƒÏ„ÎµÎ¯ Î³Î¹Î± Î½Î± Î»ÎµÎ¹Ï„Î¿Ï…ÏÎ³ÎµÎ¯ Î¼Îµ Ï„Î± Ï€ÎµÏÎ¹ÏƒÏƒÏŒÏ„ÎµÏÎ± Î¸Î­Î¼Î±Ï„Î±, Î¿ÏÎ¹ÏƒÎ¼Î­Î½ÎµÏ‚ Î»ÎµÎ¹Ï„Î¿Ï…ÏÎ³Î¯ÎµÏ‚ (ÏŒÏ€Ï‰Ï‚ Î· ÏƒÏ„Î¿Î¯Ï‡Î¹ÏƒÎ· ÎºÎ¿Ï…Î¼Ï€Î¹ÏŽÎ½ Î® Î¿Î¹ Ï€ÏÎ¿ÏƒÎ±ÏÎ¼Î¿ÏƒÎ¼Î­Î½ÎµÏ‚ ÎºÎ»Î¬ÏƒÎµÎ¹Ï‚ CSS) ÎµÎ½Î´Î­Ï‡ÎµÏ„Î±Î¹ Î½Î± Î¼Î·Î½ Î»ÎµÎ¹Ï„Î¿Ï…ÏÎ³Î¿ÏÎ½ ÏŒÏ€Ï‰Ï‚ Ï€ÏÎ¿Î²Î»Î­Ï€ÎµÏ„Î±Î¹ ÏƒÎµ Î¿ÏÎ¹ÏƒÎ¼Î­Î½Î± Î¸Î­Î¼Î±Ï„Î± Î»ÏŒÎ³Ï‰ Î±Î½Ï„Î¹ÎºÎ±Ï„Î±ÏƒÏ„Î¬ÏƒÎµÏ‰Î½ CSS ÎµÎ¹Î´Î¹ÎºÏŽÎ½ Î³Î¹Î± Ï„Î¿ Î¸Î­Î¼Î± Î® Î´Î¿Î¼ÏŽÎ½ Î´Î¹Î¬Ï„Î±Î¾Î·Ï‚."
+
+#: includes/class-admin.php:979
+msgid "If you experience any compatibility issues, you may need to add custom CSS to your theme or consult with your theme developer. The plugin provides extensive customization options (HTML tags, CSS classes, alignment controls) to help you achieve the desired integration with your specific theme."
+msgstr "Î•Î¬Î½ Î±Î½Ï„Î¹Î¼ÎµÏ„Ï‰Ï€Î¯ÏƒÎµÏ„Îµ Ï€ÏÎ¿Î²Î»Î®Î¼Î±Ï„Î± ÏƒÏ…Î¼Î²Î±Ï„ÏŒÏ„Î·Ï„Î±Ï‚, ÎµÎ½Î´Î­Ï‡ÎµÏ„Î±Î¹ Î½Î± Ï‡ÏÎµÎ¹Î±ÏƒÏ„ÎµÎ¯ Î½Î± Ï€ÏÎ¿ÏƒÎ¸Î­ÏƒÎµÏ„Îµ Ï€ÏÎ¿ÏƒÎ±ÏÎ¼Î¿ÏƒÎ¼Î­Î½Î¿ CSS ÏƒÏ„Î¿ Î¸Î­Î¼Î± ÏƒÎ±Ï‚ Î® Î½Î± ÏƒÏ…Î¼Î²Î¿Ï…Î»ÎµÏ…Ï„ÎµÎ¯Ï„Îµ Ï„Î¿Î½ Ï€ÏÎ¿Î³ÏÎ±Î¼Î¼Î±Ï„Î¹ÏƒÏ„Î® Ï„Î¿Ï… Î¸Î­Î¼Î±Ï„ÏŒÏ‚ ÏƒÎ±Ï‚. Î¤Î¿ Ï€ÏÏŒÏƒÎ¸ÎµÏ„Î¿ Ï€Î±ÏÎ­Ï‡ÎµÎ¹ ÎµÎºÏ„ÎµÎ½ÎµÎ¯Ï‚ ÎµÏ€Î¹Î»Î¿Î³Î­Ï‚ Ï€ÏÎ¿ÏƒÎ±ÏÎ¼Î¿Î³Î®Ï‚ (ÎµÏ„Î¹ÎºÎ­Ï„ÎµÏ‚ HTML, ÎºÎ»Î¬ÏƒÎµÎ¹Ï‚ CSS, ÎµÎ»Î­Î³Ï‡Î¿Ï…Ï‚ ÏƒÏ„Î¿Î¯Ï‡Î¹ÏƒÎ·Ï‚) Î³Î¹Î± Î½Î± ÏƒÎ±Ï‚ Î²Î¿Î·Î¸Î®ÏƒÎµÎ¹ Î½Î± ÎµÏ€Î¹Ï„ÏÏ‡ÎµÏ„Îµ Ï„Î·Î½ ÎµÏ€Î¹Î¸Ï…Î¼Î·Ï„Î® ÎµÎ½ÏƒÏ‰Î¼Î¬Ï„Ï‰ÏƒÎ· Î¼Îµ Ï„Î¿ ÏƒÏ…Î³ÎºÎµÎºÏÎ¹Î¼Î­Î½Î¿ Î¸Î­Î¼Î± ÏƒÎ±Ï‚."
+
+#: includes/class-admin.php:586
+msgid "What does this plugin do?"
+msgstr "Î¤Î¹ ÎºÎ¬Î½ÎµÎ¹ Î±Ï…Ï„ÏŒ Ï„Î¿ Ï€ÏÏŒÏƒÎ¸ÎµÏ„Î¿;"
+
+#: includes/class-admin.php:588
+msgid "WC Hide Price & Ask Button Pro allows you to hide product prices and replace the WooCommerce \"Add to Cart\" button with a customizable \"Ask for Product\" button. When a customer clicks this button, a contact form modal opens where they can send you an inquiry about the product. This is perfect for products that require custom quotes, exclusive items, or any product where you prefer personal communication over direct purchasing."
+msgstr "Î¤Î¿ WC Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î¤Î¹Î¼Î®Ï‚ & ÎšÎ¿Ï…Î¼Ï€Î¯ Î•ÏÏŽÏ„Î·ÏƒÎ·Ï‚ ÏƒÎ±Ï‚ ÎµÏ€Î¹Ï„ÏÎ­Ï€ÎµÎ¹ Î½Î± Î±Ï€Î¿ÎºÏÏÏˆÎµÏ„Îµ Ï„Î¹Ï‚ Ï„Î¹Î¼Î­Ï‚ Ï„Ï‰Î½ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ ÎºÎ±Î¹ Î½Î± Î±Î½Ï„Î¹ÎºÎ±Ï„Î±ÏƒÏ„Î®ÏƒÎµÏ„Îµ Ï„Î¿ ÎºÎ¿Ï…Î¼Ï€Î¯ \"Î ÏÎ¿ÏƒÎ¸Î®ÎºÎ· ÏƒÏ„Î¿ ÎºÎ±Î»Î¬Î¸Î¹\" Ï„Î¿Ï… WooCommerce Î¼Îµ Î­Î½Î± Ï€ÏÎ¿ÏƒÎ±ÏÎ¼ÏŒÏƒÎ¹Î¼Î¿ ÎºÎ¿Ï…Î¼Ï€Î¯ \"Î¡Ï‰Ï„Î®ÏƒÏ„Îµ Î³Î¹Î± Ï„Î¿ Ï€ÏÎ¿ÏŠÏŒÎ½\". ÎŒÏ„Î±Î½ Î­Î½Î±Ï‚ Ï€ÎµÎ»Î¬Ï„Î·Ï‚ Ï€Î±Ï„Î®ÏƒÎµÎ¹ Î±Ï…Ï„ÏŒ Ï„Î¿ ÎºÎ¿Ï…Î¼Ï€Î¯, Î±Î½Î¿Î¯Î³ÎµÎ¹ Î­Î½Î± Ï€Î±ÏÎ¬Î¸Ï…ÏÎ¿ Ï†ÏŒÏÎ¼Î±Ï‚ ÎµÏ€Î¹ÎºÎ¿Î¹Î½Ï‰Î½Î¯Î±Ï‚ ÏŒÏ€Î¿Ï… Î¼Ï€Î¿ÏÎµÎ¯ Î½Î± ÏƒÎ±Ï‚ ÏƒÏ„ÎµÎ¯Î»ÎµÎ¹ ÎµÏÏŽÏ„Î·ÏƒÎ· ÏƒÏ‡ÎµÏ„Î¹ÎºÎ¬ Î¼Îµ Ï„Î¿ Ï€ÏÎ¿ÏŠÏŒÎ½. Î‘Ï…Ï„ÏŒ ÎµÎ¯Î½Î±Î¹ Î¹Î´Î±Î½Î¹ÎºÏŒ Î³Î¹Î± Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î± Ï€Î¿Ï… Î±Ï€Î±Î¹Ï„Î¿ÏÎ½ ÎµÎ¾Î±Ï„Î¿Î¼Î¹ÎºÎµÏ…Î¼Î­Î½ÎµÏ‚ Ï€ÏÎ¿ÏƒÏ†Î¿ÏÎ­Ï‚, Î±Ï€Î¿ÎºÎ»ÎµÎ¹ÏƒÏ„Î¹ÎºÎ¬ Î±Î½Ï„Î¹ÎºÎµÎ¯Î¼ÎµÎ½Î± Î® Î¿Ï€Î¿Î¹Î¿Î´Î®Ï€Î¿Ï„Îµ Ï€ÏÎ¿ÏŠÏŒÎ½ ÏŒÏ€Î¿Ï… Ï€ÏÎ¿Ï„Î¹Î¼Î¬Ï„Îµ Ï„Î·Î½ Ï€ÏÎ¿ÏƒÏ‰Ï€Î¹ÎºÎ® ÎµÏ€Î¹ÎºÎ¿Î¹Î½Ï‰Î½Î¯Î± Î±Î½Ï„Î¯ Ï„Î·Ï‚ Î¬Î¼ÎµÏƒÎ·Ï‚ Î±Î³Î¿ÏÎ¬Ï‚."
+
+#: includes/class-admin.php:593
+msgid "Hide prices for individual products or entire categories."
+msgstr ""
+
+#: includes/class-admin.php:594
+msgid "Replace the Add to Cart button with a customizable inquiry button."
+msgstr ""
+
+#: includes/class-admin.php:595
+msgid "Built-in contact form modal â€” no extra plugins needed."
+msgstr ""
+
+#: includes/class-admin.php:596
+msgid "Inherits your theme styling for seamless integration."
+msgstr "ÎšÎ»Î·ÏÎ¿Î½Î¿Î¼ÎµÎ¯ Ï„Î· Î¼Î¿ÏÏ†Î¿Ï€Î¿Î¯Î·ÏƒÎ· Ï„Î¿Ï… Î¸Î­Î¼Î±Ï„ÏŒÏ‚ ÏƒÎ±Ï‚ Î³Î¹Î± Î±Ï€ÏÏŒÏƒÎºÎ¿Ï€Ï„Î· ÎµÎ½ÏƒÏ‰Î¼Î¬Ï„Ï‰ÏƒÎ·."
+
+#: includes/class-admin.php:597
+msgid "Full internationalization (i18n) support."
+msgstr "Î Î»Î®ÏÎ·Ï‚ Ï…Ï€Î¿ÏƒÏ„Î®ÏÎ¹Î¾Î· Î´Î¹ÎµÎ¸Î½Î¿Ï€Î¿Î¯Î·ÏƒÎ·Ï‚ (i18n)."
+
+#: includes/class-admin.php:602
+msgid "Support the Developer"
+msgstr "Î¥Ï€Î¿ÏƒÏ„Î·ÏÎ¯Î¾Ï„Îµ Ï„Î¿Î½ Î ÏÎ¿Î³ÏÎ±Î¼Î¼Î±Ï„Î¹ÏƒÏ„Î®"
+
+#: includes/class-admin.php:603
+msgid "If you find this plugin helpful, consider supporting the developer with a small donation. Every contribution helps keep this project going!"
+msgstr "Î‘Î½ Î²ÏÎ¯ÏƒÎºÎµÏ„Îµ Î±Ï…Ï„ÏŒ Ï„Î¿ Ï€ÏÏŒÏƒÎ¸ÎµÏ„Î¿ Ï‡ÏÎ®ÏƒÎ¹Î¼Î¿, ÏƒÎºÎµÏ†Ï„ÎµÎ¯Ï„Îµ Î½Î± Ï…Ï€Î¿ÏƒÏ„Î·ÏÎ¯Î¾ÎµÏ„Îµ Ï„Î¿Î½ Ï€ÏÎ¿Î³ÏÎ±Î¼Î¼Î±Ï„Î¹ÏƒÏ„Î® Î¼Îµ Î¼Î¹Î± Î¼Î¹ÎºÏÎ® Î´Ï‰ÏÎµÎ¬. ÎšÎ¬Î¸Îµ ÏƒÏ…Î½ÎµÎ¹ÏƒÏ†Î¿ÏÎ¬ Î²Î¿Î·Î¸Î¬ ÏƒÏ„Î· ÏƒÏ…Î½Î­Ï‡Î¹ÏƒÎ· Î±Ï…Ï„Î¿Ï Ï„Î¿Ï… Î­ÏÎ³Î¿Ï…!"
+
+#: includes/class-admin.php:608
+msgid "Donate via PayPal"
+msgstr "Î”Ï‰ÏÎµÎ¬ Î¼Î­ÏƒÏ‰ PayPal"
+
+#: includes/class-admin.php:612
+msgid "Donate via Revolut"
+msgstr "Î”Ï‰ÏÎµÎ¬ Î¼Î­ÏƒÏ‰ Revolut"
+
+#. translators: %s: Plugin version number.
+#: includes/class-admin.php:622
+#, php-format
+msgid "Version %s"
+msgstr "ÎˆÎºÎ´Î¿ÏƒÎ· %s"
+
+#: includes/class-admin.php:362 includes/class-frontend.php:150
+#: includes/class-frontend.php:167
+msgid "Ask for product"
+msgstr "Î¡Ï‰Ï„Î®ÏƒÏ„Îµ Î³Î¹Î± Ï„Î¿ Ï€ÏÎ¿ÏŠÏŒÎ½"
+
+#: includes/class-frontend.php:310
+msgid "Interest in product"
+msgstr "Î•Î½Î´Î¹Î±Ï†Î­ÏÎ¿Î½ Î³Î¹Î± Ï„Î¿ Ï€ÏÎ¿ÏŠÏŒÎ½"
+
+#: includes/class-frontend.php:311 includes/class-frontend.php:357
+msgid "Your Name"
+msgstr "Î¤Î¿ ÎŒÎ½Î¿Î¼Î¬ ÏƒÎ±Ï‚"
+
+#: includes/class-frontend.php:312 includes/class-frontend.php:365
+msgid "Your Telephone"
+msgstr "Î¤Î¿ Î¤Î·Î»Î­Ï†Ï‰Î½ÏŒ ÏƒÎ±Ï‚"
+
+#: includes/class-frontend.php:313 includes/class-frontend.php:372
+msgid "Your Email"
+msgstr "Î¤Î¿ Email ÏƒÎ±Ï‚"
+
+#: includes/class-frontend.php:314 includes/class-frontend.php:380
+msgid "Your Message"
+msgstr "Î¤Î¿ ÎœÎ®Î½Ï…Î¼Î¬ ÏƒÎ±Ï‚"
+
+#: includes/class-frontend.php:315 includes/class-frontend.php:388
+msgid "Send Message"
+msgstr "Î‘Ï€Î¿ÏƒÏ„Î¿Î»Î® ÎœÎ·Î½ÏÎ¼Î±Ï„Î¿Ï‚"
+
+#: includes/class-frontend.php:316
+msgid "Required"
+msgstr "Î¥Ï€Î¿Ï‡ÏÎµÏ‰Ï„Î¹ÎºÏŒ"
+
+#: includes/class-frontend.php:317
+msgid "Sendingâ€¦"
+msgstr "Î‘Ï€Î¿ÏƒÏ„Î¿Î»Î®â€¦"
+
+#: includes/class-ajax.php:394 includes/class-frontend.php:318
+msgid "Thank you! Your message has been sent successfully."
+msgstr "Î•Ï…Ï‡Î±ÏÎ¹ÏƒÏ„Î¿ÏÎ¼Îµ! Î¤Î¿ Î¼Î®Î½Ï…Î¼Î¬ ÏƒÎ±Ï‚ ÏƒÏ„Î¬Î»Î¸Î·ÎºÎµ ÎµÏ€Î¹Ï„Ï…Ï‡ÏŽÏ‚."
+
+#: includes/class-frontend.php:319
+msgid "An error occurred. Please try again."
+msgstr "Î Î±ÏÎ¿Ï…ÏƒÎ¹Î¬ÏƒÏ„Î·ÎºÎµ ÏƒÏ†Î¬Î»Î¼Î±. Î Î±ÏÎ±ÎºÎ±Î»ÏŽ Î´Î¿ÎºÎ¹Î¼Î¬ÏƒÏ„Îµ Î¾Î±Î½Î¬."
+
+#: includes/class-ajax.php:333 includes/class-frontend.php:320
+msgid "Please fill in all required fields."
+msgstr "Î Î±ÏÎ±ÎºÎ±Î»ÏŽ ÏƒÏ…Î¼Ï€Î»Î·ÏÏŽÏƒÏ„Îµ ÏŒÎ»Î± Ï„Î± Ï…Ï€Î¿Ï‡ÏÎµÏ‰Ï„Î¹ÎºÎ¬ Ï€ÎµÎ´Î¯Î±."
+
+#: includes/class-admin.php:538 includes/class-ajax.php:339
+#: includes/class-frontend.php:321
+msgid "Please enter a valid email address."
+msgstr "Î Î±ÏÎ±ÎºÎ±Î»ÏŽ ÎµÎ¹ÏƒÎ¬Î³ÎµÏ„Îµ Î¼Î¹Î± Î­Î³ÎºÏ…ÏÎ· Î´Î¹ÎµÏÎ¸Ï…Î½ÏƒÎ· email."
+
+#: includes/class-frontend.php:322 includes/class-frontend.php:347
+msgid "Close"
+msgstr "ÎšÎ»ÎµÎ¯ÏƒÎ¹Î¼Î¿"
+
+#: includes/class-ajax.php:68 includes/class-ajax.php:150
+#: includes/class-ajax.php:196 includes/class-ajax.php:231
+#: includes/class-ajax.php:250 includes/class-ajax.php:288
+msgid "Unauthorized."
+msgstr "ÎœÎ· ÎµÎ¾Î¿Ï…ÏƒÎ¹Î¿Î´Î¿Ï„Î·Î¼Î­Î½Î¿."
+
+#: includes/class-ajax.php:363
+msgid "Name"
+msgstr "ÎŒÎ½Î¿Î¼Î±"
+
+#: includes/class-ajax.php:364
+msgid "Email"
+msgstr "Email"
+
+#: includes/class-ajax.php:367
+msgid "Phone"
+msgstr "Î¤Î·Î»Î­Ï†Ï‰Î½Î¿"
+
+#: includes/class-ajax.php:382
+msgid "Product"
+msgstr "Î ÏÎ¿ÏŠÏŒÎ½"
+
+#: includes/class-ajax.php:383
+msgid "Message"
+msgstr "ÎœÎ®Î½Ï…Î¼Î±"
+
+#: includes/class-ajax.php:398
+msgid "An error occurred while sending your message. Please try again."
+msgstr "Î Î±ÏÎ¿Ï…ÏƒÎ¹Î¬ÏƒÏ„Î·ÎºÎµ ÏƒÏ†Î¬Î»Î¼Î± ÎºÎ±Ï„Î¬ Ï„Î·Î½ Î±Ï€Î¿ÏƒÏ„Î¿Î»Î® Ï„Î¿Ï… Î¼Î·Î½ÏÎ¼Î±Ï„ÏŒÏ‚ ÏƒÎ±Ï‚. Î Î±ÏÎ±ÎºÎ±Î»ÏŽ Î´Î¿ÎºÎ¹Î¼Î¬ÏƒÏ„Îµ Î¾Î±Î½Î¬."
+
+#: includes/class-admin.php:286
+msgid "Exclude Products"
+msgstr "Î•Î¾Î±Î¯ÏÎµÏƒÎ· Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½"
+
+#: includes/class-admin.php:287
+msgid "Products listed here will keep their prices visible even if they belong to a hidden category above."
+msgstr "Î¤Î± Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î± Ï€Î¿Ï… Î±Î½Î±Ï†Î­ÏÎ¿Î½Ï„Î±Î¹ ÎµÎ´ÏŽ Î¸Î± Î´Î¹Î±Ï„Î·ÏÎ®ÏƒÎ¿Ï…Î½ Ï„Î¹Ï‚ Ï„Î¹Î¼Î­Ï‚ Ï„Î¿Ï…Ï‚ Î¿ÏÎ±Ï„Î­Ï‚ Î±ÎºÏŒÎ¼Î± ÎºÎ¹ Î±Î½ Î±Î½Î®ÎºÎ¿Ï…Î½ ÏƒÎµ Î¼Î¹Î± ÎºÏÏ…Ï†Î® ÎºÎ±Ï„Î·Î³Î¿ÏÎ¯Î± Ï€Î±ÏÎ±Ï€Î¬Î½Ï‰."
+
+#: includes/class-admin.php:290
+msgid "Search Products to Exclude"
+msgstr "Î‘Î½Î±Î¶Î®Ï„Î·ÏƒÎ· Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ Î³Î¹Î± Î•Î¾Î±Î¯ÏÎµÏƒÎ·"
+
+#: includes/class-admin.php:308
+msgid "Excluded Products"
+msgstr "Î•Î¾Î±Î¹ÏÎ¿ÏÎ¼ÎµÎ½Î± Î ÏÎ¿ÏŠÏŒÎ½Ï„Î±"
+
+#: includes/class-admin.php:337
+msgid "Save Excluded Products"
+msgstr "Î‘Ï€Î¿Î¸Î®ÎºÎµÏ…ÏƒÎ· Î•Î¾Î±Î¹ÏÎ¿ÏÎ¼ÎµÎ½Ï‰Î½ Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½"
+
+#: includes/class-admin.php:142
+msgid "This product is already in the Excluded Products list on the Categories page. Remove it there first."
+msgstr "Î‘Ï…Ï„ÏŒ Ï„Î¿ Ï€ÏÎ¿ÏŠÏŒÎ½ Î²ÏÎ¯ÏƒÎºÎµÏ„Î±Î¹ Î®Î´Î· ÏƒÏ„Î· Î»Î¯ÏƒÏ„Î± Î•Î¾Î±Î¹ÏÎ¿ÏÎ¼ÎµÎ½Ï‰Î½ Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ ÏƒÏ„Î· ÏƒÎµÎ»Î¯Î´Î± ÎšÎ±Ï„Î·Î³Î¿ÏÎ¹ÏŽÎ½. Î‘Ï†Î±Î¹ÏÎ­ÏƒÏ„Îµ Ï„Î¿ Ï€ÏÏŽÏ„Î± Î±Ï€ÏŒ ÎµÎºÎµÎ¯."
+
+#: includes/class-admin.php:143
+msgid "This product is already in the Hidden Products list. Remove it there first."
+msgstr "Î‘Ï…Ï„ÏŒ Ï„Î¿ Ï€ÏÎ¿ÏŠÏŒÎ½ Î²ÏÎ¯ÏƒÎºÎµÏ„Î±Î¹ Î®Î´Î· ÏƒÏ„Î· Î»Î¯ÏƒÏ„Î± ÎšÏÏ…Ï†ÏŽÎ½ Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½. Î‘Ï†Î±Î¹ÏÎ­ÏƒÏ„Îµ Ï„Î¿ Ï€ÏÏŽÏ„Î± Î±Ï€ÏŒ ÎµÎºÎµÎ¯."
+
+#: includes/class-ajax.php:212
+msgid "Conflict: the following products are in the Excluded Products list. Remove them there first:"
+msgstr "Î£ÏÎ³ÎºÏÎ¿Ï…ÏƒÎ·: Ï„Î± Î±ÎºÏŒÎ»Î¿Ï…Î¸Î± Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î± Î²ÏÎ¯ÏƒÎºÎ¿Î½Ï„Î±Î¹ ÏƒÏ„Î· Î»Î¯ÏƒÏ„Î± Î•Î¾Î±Î¹ÏÎ¿ÏÎ¼ÎµÎ½Ï‰Î½ Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½. Î‘Ï†Î±Î¹ÏÎ­ÏƒÏ„Îµ Ï„Î± Ï€ÏÏŽÏ„Î± Î±Ï€ÏŒ ÎµÎºÎµÎ¯:"
+
+#: includes/class-ajax.php:304
+msgid "Conflict: the following products are in the Hidden Products list. Remove them there first:"
+msgstr "Î£ÏÎ³ÎºÏÎ¿Ï…ÏƒÎ·: Ï„Î± Î±ÎºÏŒÎ»Î¿Ï…Î¸Î± Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î± Î²ÏÎ¯ÏƒÎºÎ¿Î½Ï„Î±Î¹ ÏƒÏ„Î· Î»Î¯ÏƒÏ„Î± ÎšÏÏ…Ï†ÏŽÎ½ Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½. Î‘Ï†Î±Î¹ÏÎ­ÏƒÏ„Îµ Ï„Î± Ï€ÏÏŽÏ„Î± Î±Ï€ÏŒ ÎµÎºÎµÎ¯:"
+
+#. Plugin Name of the plugin
+#: wc-hide-price-ask-button.php
+msgid "WC Hide Price & Ask Button Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: wc-hide-price-ask-button.php
+msgid "https://github.com/senortiago/wc-hide-price-ask-button"
+msgstr ""
+
+#. Description of the plugin
+#: wc-hide-price-ask-button.php
+msgid "Hide WooCommerce product prices and replace the Add to Cart button with a customizable \"Ask for Product\" button that opens a contact modal."
+msgstr ""
+
+#. Author of the plugin
+#: wc-hide-price-ask-button.php
+msgid "Senortiago"
+msgstr ""
+
+#. Author URI of the plugin
+#: wc-hide-price-ask-button.php
+msgid "https://github.com/senortiago"
+msgstr ""
+
+#: includes/class-admin.php:184
+msgid "No products selected yet."
+msgstr "Î”ÎµÎ½ Î­Ï‡Î¿Ï…Î½ ÎµÏ€Î¹Î»ÎµÎ³ÎµÎ¯ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î± Î±ÎºÏŒÎ¼Î±."
+
+#: includes/class-admin.php:255
+msgid "No categories selected yet."
+msgstr "Î”ÎµÎ½ Î­Ï‡Î¿Ï…Î½ ÎµÏ€Î¹Î»ÎµÎ³ÎµÎ¯ ÎºÎ±Ï„Î·Î³Î¿ÏÎ¯ÎµÏ‚ Î±ÎºÏŒÎ¼Î±."
+
+#: includes/class-admin.php:312
+msgid "No products excluded yet."
+msgstr "Î”ÎµÎ½ Î­Ï‡Î¿Ï…Î½ ÎµÎ¾Î±Î¹ÏÎµÎ¸ÎµÎ¯ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î± Î±ÎºÏŒÎ¼Î±."
+
+#: includes/class-admin.php:465
+msgid "Link to Product Page"
+msgstr "Î£ÏÎ½Î´ÎµÏƒÎ¼Î¿Ï‚ Î£ÎµÎ»Î¯Î´Î±Ï‚ Î ÏÎ¿ÏŠÏŒÎ½Ï„Î¿Ï‚"
+
+#: includes/class-admin.php:470
+msgid "Open Modal Form"
+msgstr "Î†Î½Î¿Î¹Î³Î¼Î± Î¦ÏŒÏÎ¼Î±Ï‚"
+
+#: includes/class-admin.php:518
+msgid "Email Receiver"
+msgstr "Î”Î­ÎºÏ„Î·Ï‚ Ï„Î¿Ï… Email"
+
+#: includes/class-admin.php:528
+msgid "Admin Email:"
+msgstr "Email Î”Î¹Î±Ï‡ÎµÎ¹ÏÎ¹ÏƒÏ„Î®:"
+
+#: includes/class-admin.php:534
+msgid "Custom Email:"
+msgstr "Î ÏÎ¿ÏƒÎ±ÏÎ¼Î¿ÏƒÎ¼Î­Î½Î¿ Email:"
+
+#. translators: %s: Product name.
+#: includes/class-ajax.php:361
+#, php-format
+msgid "Interest for the product: %s"
+msgstr "Î•Î½Î´Î¹Î±Ï†Î­ÏÎ¿Î½ Î³Î¹Î± Ï„Î¿ Ï€ÏÎ¿ÏŠÏŒÎ½: %s"
+
+#: includes/class-ajax.php:379
+msgid "Link:"
+msgstr "Î£ÏÎ½Î´ÎµÏƒÎ¼Î¿Ï‚:"
+
+#: includes/class-admin.php:372
+msgid "Product Page Button Settings"
+msgstr "Î¡Ï…Î¸Î¼Î¯ÏƒÎµÎ¹Ï‚ ÎšÎ¿Ï…Î¼Ï€Î¹Î¿Ï Î£ÎµÎ»Î¯Î´Î±Ï‚ Î ÏÎ¿ÏŠÏŒÎ½Ï„Î¿Ï‚"
+
+#: includes/class-admin.php:378 includes/class-admin.php:439
+msgid "Button Text"
+msgstr "ÎšÎµÎ¯Î¼ÎµÎ½Î¿ ÎšÎ¿Ï…Î¼Ï€Î¹Î¿Ï"
+
+#: includes/class-admin.php:399 includes/class-admin.php:478
+msgid "Button Icon"
+msgstr "Î•Î¹ÎºÎ¿Î½Î¯Î´Î¹Î¿ ÎšÎ¿Ï…Î¼Ï€Î¹Î¿Ï"
+
+#: includes/class-admin.php:408 includes/class-admin.php:487
+msgid "No Icon"
+msgstr "Î§Ï‰ÏÎ¯Ï‚ Î•Î¹ÎºÎ¿Î½Î¯Î´Î¹Î¿"
+
+#: includes/class-admin.php:413 includes/class-admin.php:492
+msgid "Custom Icon"
+msgstr "Î ÏÎ¿ÏƒÎ±ÏÎ¼Î¿ÏƒÎ¼Î­Î½Î¿ Î•Î¹ÎºÎ¿Î½Î¯Î´Î¹Î¿"
+
+#: includes/class-admin.php:420 includes/class-admin.php:499
+msgid "Search Dashicons..."
+msgstr "Î‘Î½Î±Î¶Î®Ï„Î·ÏƒÎ· Dashicons..."
+
+#: includes/class-admin.php:433
+msgid "Category Page Button Settings"
+msgstr "Î¡Ï…Î¸Î¼Î¯ÏƒÎµÎ¹Ï‚ ÎšÎ¿Ï…Î¼Ï€Î¹Î¿Ï Î£ÎµÎ»Î¯Î´Î±Ï‚ ÎšÎ±Ï„Î·Î³Î¿ÏÎ¯Î±Ï‚"
+
+#: includes/class-admin.php:460
+msgid "Button Action"
+msgstr "Î•Î½Î­ÏÎ³ÎµÎ¹Î± ÎšÎ¿Ï…Î¼Ï€Î¹Î¿Ï"
+
+#: includes/class-admin.php:512
+msgid "Additional Options"
+msgstr "Î•Ï€Î¹Ï€Î»Î­Î¿Î½ Î•Ï€Î¹Î»Î¿Î³Î­Ï‚"
+
+#: includes/class-admin.php:165
+msgid "Hide Price From All Products"
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î¤Î¹Î¼Î®Ï‚ Î±Ï€ÏŒ ÎŒÎ»Î± Ï„Î± Î ÏÎ¿ÏŠÏŒÎ½Ï„Î±"
+
+#: includes/class-admin.php:167
+msgid "Enable this to hide prices from all products in your store. When enabled, individual product selections below will be disabled."
+msgstr "Î•Î½ÎµÏÎ³Î¿Ï€Î¿Î¹Î®ÏƒÏ„Îµ Î±Ï…Ï„ÏŒ Î³Î¹Î± Î½Î± Î±Ï€Î¿ÎºÏÏÏˆÎµÏ„Îµ Ï„Î¹Ï‚ Ï„Î¹Î¼Î­Ï‚ Î±Ï€ÏŒ ÏŒÎ»Î± Ï„Î± Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î± ÏƒÏ„Î¿ ÎºÎ±Ï„Î¬ÏƒÏ„Î·Î¼Î¬ ÏƒÎ±Ï‚. ÎŒÏ„Î±Î½ ÎµÎ¯Î½Î±Î¹ ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½Î¿, Î¿Î¹ Î¼ÎµÎ¼Î¿Î½Ï‰Î¼Î­Î½ÎµÏ‚ ÎµÏ€Î¹Î»Î¿Î³Î­Ï‚ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ Ï€Î±ÏÎ±ÎºÎ¬Ï„Ï‰ Î¸Î± Î±Ï€ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¸Î¿ÏÎ½."
+
+#: includes/class-admin.php:168 includes/class-admin.php:268
+msgid "Save Setting"
+msgstr "Î‘Ï€Î¿Î¸Î®ÎºÎµÏ…ÏƒÎ· Î¡ÏÎ¸Î¼Î¹ÏƒÎ·Ï‚"
+
+#: includes/class-admin.php:174
+msgid "Individual Product Selection"
+msgstr "ÎœÎµÎ¼Î¿Î½Ï‰Î¼Î­Î½Î· Î•Ï€Î¹Î»Î¿Î³Î® Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½"
+
+#: includes/class-admin.php:180
+msgid "Individual Product Selection Disabled"
+msgstr "Î— ÎœÎµÎ¼Î¿Î½Ï‰Î¼Î­Î½Î· Î•Ï€Î¹Î»Î¿Î³Î® Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ ÎµÎ¯Î½Î±Î¹ Î‘Ï€ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½Î·"
+
+#: includes/class-admin.php:181
+msgid "\"Hide Price From All Products\" is currently enabled. Individual product selections are disabled."
+msgstr "Î— ÎµÏ€Î¹Î»Î¿Î³Î® \"Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î¤Î¹Î¼Î®Ï‚ Î±Ï€ÏŒ ÎŒÎ»Î± Ï„Î± Î ÏÎ¿ÏŠÏŒÎ½Ï„Î±\" ÎµÎ¯Î½Î±Î¹ ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½Î·. ÎŸÎ¹ Î¼ÎµÎ¼Î¿Î½Ï‰Î¼Î­Î½ÎµÏ‚ ÎµÏ€Î¹Î»Î¿Î³Î­Ï‚ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ ÎµÎ¯Î½Î±Î¹ Î±Ï€ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½ÎµÏ‚."
+
+#: includes/class-admin.php:182
+msgid "Disable \"Hide All Products\" to use this feature"
+msgstr "Î‘Ï€ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î®ÏƒÏ„Îµ Ï„Î·Î½ \"Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· ÎŒÎ»Ï‰Î½ Ï„Ï‰Î½ Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½\" Î³Î¹Î± Î½Î± Ï‡ÏÎ·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹Î®ÏƒÎµÏ„Îµ Î±Ï…Ï„Î® Ï„Î· Î»ÎµÎ¹Ï„Î¿Ï…ÏÎ³Î¯Î±"
+
+#: includes/class-admin.php:262
+msgid "Hide Price From All Categories"
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î¤Î¹Î¼Î®Ï‚ Î±Ï€ÏŒ ÎŒÎ»ÎµÏ‚ Ï„Î¹Ï‚ ÎšÎ±Ï„Î·Î³Î¿ÏÎ¯ÎµÏ‚"
+
+#: includes/class-admin.php:264
+msgid "Enable this to hide prices from all product categories. When enabled, individual category selections below will be disabled."
+msgstr "Î•Î½ÎµÏÎ³Î¿Ï€Î¿Î¹Î®ÏƒÏ„Îµ Î±Ï…Ï„ÏŒ Î³Î¹Î± Î½Î± Î±Ï€Î¿ÎºÏÏÏˆÎµÏ„Îµ Ï„Î¹Ï‚ Ï„Î¹Î¼Î­Ï‚ Î±Ï€ÏŒ ÏŒÎ»ÎµÏ‚ Ï„Î¹Ï‚ ÎºÎ±Ï„Î·Î³Î¿ÏÎ¯ÎµÏ‚ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½. ÎŒÏ„Î±Î½ ÎµÎ¯Î½Î±Î¹ ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½Î¿, Î¿Î¹ Î¼ÎµÎ¼Î¿Î½Ï‰Î¼Î­Î½ÎµÏ‚ ÎµÏ€Î¹Î»Î¿Î³Î­Ï‚ ÎºÎ±Ï„Î·Î³Î¿ÏÎ¹ÏŽÎ½ Ï€Î±ÏÎ±ÎºÎ¬Ï„Ï‰ Î¸Î± Î±Ï€ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¸Î¿ÏÎ½."
+
+#: includes/class-admin.php:266
+msgid "This option is disabled because \"Hide Price From All Products\" is enabled."
+msgstr "Î‘Ï…Ï„Î® Î· ÎµÏ€Î¹Î»Î¿Î³Î® ÎµÎ¯Î½Î±Î¹ Î±Ï€ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½Î· ÎµÏ€ÎµÎ¹Î´Î® Î· \"Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î¤Î¹Î¼Î®Ï‚ Î±Ï€ÏŒ ÎŒÎ»Î± Ï„Î± Î ÏÎ¿ÏŠÏŒÎ½Ï„Î±\" ÎµÎ¯Î½Î±Î¹ ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½Î·."
+
+#: includes/class-admin.php:266
+msgid "Go to Products page to change this"
+msgstr "ÎœÎµÏ„Î±Î²ÎµÎ¯Ï„Îµ ÏƒÏ„Î· ÏƒÎµÎ»Î¯Î´Î± Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ Î³Î¹Î± Î½Î± Ï„Î¿ Î±Î»Î»Î¬Î¾ÎµÏ„Îµ"
+
+#: includes/class-admin.php:275
+msgid "Individual Category Selection"
+msgstr "ÎœÎµÎ¼Î¿Î½Ï‰Î¼Î­Î½Î· Î•Ï€Î¹Î»Î¿Î³Î® ÎšÎ±Ï„Î·Î³Î¿ÏÎ¹ÏŽÎ½"
+
+#: includes/class-admin.php:281
+msgid "Individual Category Selection Disabled"
+msgstr "Î— ÎœÎµÎ¼Î¿Î½Ï‰Î¼Î­Î½Î· Î•Ï€Î¹Î»Î¿Î³Î® ÎšÎ±Ï„Î·Î³Î¿ÏÎ¹ÏŽÎ½ ÎµÎ¯Î½Î±Î¹ Î‘Ï€ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½Î·"
+
+#: includes/class-admin.php:283
+msgid "\"Hide Price From All Products\" is currently enabled. Category selections are disabled."
+msgstr "Î— ÎµÏ€Î¹Î»Î¿Î³Î® \"Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î¤Î¹Î¼Î®Ï‚ Î±Ï€ÏŒ ÎŒÎ»Î± Ï„Î± Î ÏÎ¿ÏŠÏŒÎ½Ï„Î±\" ÎµÎ¯Î½Î±Î¹ ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½Î·. ÎŸÎ¹ ÎµÏ€Î¹Î»Î¿Î³Î­Ï‚ ÎºÎ±Ï„Î·Î³Î¿ÏÎ¹ÏŽÎ½ ÎµÎ¯Î½Î±Î¹ Î±Ï€ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½ÎµÏ‚."
+
+#: includes/class-admin.php:284
+msgid "Go to Products page to disable \"Hide All Products\""
+msgstr "ÎœÎµÏ„Î±Î²ÎµÎ¯Ï„Îµ ÏƒÏ„Î· ÏƒÎµÎ»Î¯Î´Î± Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ Î³Î¹Î± Î½Î± Î±Ï€ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î®ÏƒÎµÏ„Îµ Ï„Î·Î½ \"Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· ÎŒÎ»Ï‰Î½ Ï„Ï‰Î½ Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½\""
+
+#: includes/class-admin.php:286
+msgid "\"Hide Price From All Categories\" is currently enabled. Individual category selections are disabled."
+msgstr "Î— ÎµÏ€Î¹Î»Î¿Î³Î® \"Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î¤Î¹Î¼Î®Ï‚ Î±Ï€ÏŒ ÎŒÎ»ÎµÏ‚ Ï„Î¹Ï‚ ÎšÎ±Ï„Î·Î³Î¿ÏÎ¯ÎµÏ‚\" ÎµÎ¯Î½Î±Î¹ ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½Î·. ÎŸÎ¹ Î¼ÎµÎ¼Î¿Î½Ï‰Î¼Î­Î½ÎµÏ‚ ÎµÏ€Î¹Î»Î¿Î³Î­Ï‚ ÎºÎ±Ï„Î·Î³Î¿ÏÎ¹ÏŽÎ½ ÎµÎ¯Î½Î±Î¹ Î±Ï€ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½ÎµÏ‚."
+
+#: includes/class-admin.php:287
+msgid "Disable \"Hide All Categories\" to use this feature"
+msgstr "Î‘Ï€ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î®ÏƒÏ„Îµ Ï„Î·Î½ \"Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· ÎŒÎ»Ï‰Î½ Ï„Ï‰Î½ ÎšÎ±Ï„Î·Î³Î¿ÏÎ¹ÏŽÎ½\" Î³Î¹Î± Î½Î± Ï‡ÏÎ·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹Î®ÏƒÎµÏ„Îµ Î±Ï…Ï„Î® Ï„Î· Î»ÎµÎ¹Ï„Î¿Ï…ÏÎ³Î¯Î±"
+
+#: includes/class-admin.php:438
+msgid "Visibility Settings"
+msgstr "Î¡Ï…Î¸Î¼Î¯ÏƒÎµÎ¹Ï‚ ÎŸÏÎ±Ï„ÏŒÏ„Î·Ï„Î±Ï‚"
+
+#: includes/class-admin.php:439
+msgid "Control who can see prices for hidden products. Configure which products/categories to hide on the Products and Categories pages."
+msgstr "Î•Î»Î­Î³Î¾Ï„Îµ Ï€Î¿Î¹Î¿Ï‚ Î¼Ï€Î¿ÏÎµÎ¯ Î½Î± Î´ÎµÎ¹ Ï„Î¹Ï‚ Ï„Î¹Î¼Î­Ï‚ Î³Î¹Î± Ï„Î± ÎºÏÏ…Ï†Î¬ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î±. Î¡Ï…Î¸Î¼Î¯ÏƒÏ„Îµ Ï€Î¿Î¹Î± Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î±/ÎºÎ±Ï„Î·Î³Î¿ÏÎ¯ÎµÏ‚ Î¸Î± Î±Ï€Î¿ÎºÏÏÏ€Ï„Î¿Î½Ï„Î±Î¹ ÏƒÏ„Î¹Ï‚ ÏƒÎµÎ»Î¯Î´ÎµÏ‚ Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ ÎºÎ±Î¹ ÎšÎ±Ï„Î·Î³Î¿ÏÎ¹ÏŽÎ½."
+
+#: includes/class-admin.php:445
+msgid "Hide Prices From"
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Ï„Î¹Î¼ÏŽÎ½"
+
+#: includes/class-admin.php:450
+msgid "Hide from everyone (show contact form)"
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î±Ï€ÏŒ ÏŒÎ»Î¿Ï…Ï‚ (ÎµÎ¼Ï†Î¬Î½Î¹ÏƒÎ· Ï†ÏŒÏÎ¼Î±Ï‚ ÎµÏ€Î¹ÎºÎ¿Î¹Î½Ï‰Î½Î¯Î±Ï‚)"
+
+#: includes/class-admin.php:454
+msgid "Hide from guests only (show login/register link)"
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î¼ÏŒÎ½Î¿ Î±Ï€ÏŒ ÎµÏ€Î¹ÏƒÎºÎ­Ï€Ï„ÎµÏ‚ (ÎµÎ¼Ï†Î¬Î½Î¹ÏƒÎ· ÏƒÏ…Î½Î´Î­ÏƒÎ¼Î¿Ï… ÏƒÏÎ½Î´ÎµÏƒÎ·Ï‚/ÎµÎ³Î³ÏÎ±Ï†Î®Ï‚)"
+
+#: includes/class-admin.php:458
+msgid "Hide from specific WordPress roles (show contact form)"
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î±Ï€ÏŒ ÏƒÏ…Î³ÎºÎµÎºÏÎ¹Î¼Î­Î½Î¿Ï…Ï‚ ÏÏŒÎ»Î¿Ï…Ï‚ WordPress (ÎµÎ¼Ï†Î¬Î½Î¹ÏƒÎ· Ï†ÏŒÏÎ¼Î±Ï‚ ÎµÏ€Î¹ÎºÎ¿Î¹Î½Ï‰Î½Î¯Î±Ï‚)"
+
+#: includes/class-admin.php:462
+msgid "Select roles that should NOT see prices:"
+msgstr "Î•Ï€Î¹Î»Î­Î¾Ï„Îµ ÏÏŒÎ»Î¿Ï…Ï‚ Ï€Î¿Ï… Î”Î•Î Î¸Î± Î²Î»Î­Ï€Î¿Ï…Î½ Ï„Î¹Ï‚ Ï„Î¹Î¼Î­Ï‚:"
+
+#: includes/class-admin.php:485
+msgid "Login Button Settings"
+msgstr "Î¡Ï…Î¸Î¼Î¯ÏƒÎµÎ¹Ï‚ ÎšÎ¿Ï…Î¼Ï€Î¹Î¿Ï Î£ÏÎ½Î´ÎµÏƒÎ·Ï‚"
+
+#: includes/class-admin.php:486
+msgid "Configure the login button shown to guests when prices are hidden."
+msgstr "Î¡Ï…Î¸Î¼Î¯ÏƒÏ„Îµ Ï„Î¿ ÎºÎ¿Ï…Î¼Ï€Î¯ ÏƒÏÎ½Î´ÎµÏƒÎ·Ï‚ Ï€Î¿Ï… ÎµÎ¼Ï†Î±Î½Î¯Î¶ÎµÏ„Î±Î¹ ÏƒÏ„Î¿Ï…Ï‚ ÎµÏ€Î¹ÏƒÎºÎ­Ï€Ï„ÎµÏ‚ ÏŒÏ„Î±Î½ Î¿Î¹ Ï„Î¹Î¼Î­Ï‚ ÎµÎ¯Î½Î±Î¹ ÎºÏÏ…Ï†Î­Ï‚."
+
+#: includes/class-admin.php:498 includes/class-frontend.php:267
+msgid "Login to view price"
+msgstr "Î£Ï…Î½Î´ÎµÎ¸ÎµÎ¯Ï„Îµ Î³Î¹Î± Î½Î± Î´ÎµÎ¯Ï„Îµ Ï„Î·Î½ Ï„Î¹Î¼Î®"
+
+#: includes/class-admin.php:560
+msgid "Link to theme's default login/register page"
+msgstr "Î£ÏÎ½Î´ÎµÏƒÎ¼Î¿Ï‚ ÏƒÏ„Î·Î½ Ï€ÏÎ¿ÎµÏ€Î¹Î»ÎµÎ³Î¼Î­Î½Î· ÏƒÎµÎ»Î¯Î´Î± ÏƒÏÎ½Î´ÎµÏƒÎ·Ï‚/ÎµÎ³Î³ÏÎ±Ï†Î®Ï‚ Ï„Î¿Ï… Î¸Î­Î¼Î±Ï„Î¿Ï‚"
+
+#: includes/class-admin.php:565
+msgid "Link to WordPress default login/register page"
+msgstr "Î£ÏÎ½Î´ÎµÏƒÎ¼Î¿Ï‚ ÏƒÏ„Î·Î½ Ï€ÏÎ¿ÎµÏ€Î¹Î»ÎµÎ³Î¼Î­Î½Î· ÏƒÎµÎ»Î¯Î´Î± ÏƒÏÎ½Î´ÎµÏƒÎ·Ï‚/ÎµÎ³Î³ÏÎ±Ï†Î®Ï‚ Ï„Î¿Ï… WordPress"
+
+#: includes/class-admin.php:570
+msgid "Custom login/register URL:"
+msgstr "Î ÏÎ¿ÏƒÎ±ÏÎ¼Î¿ÏƒÎ¼Î­Î½Î¿ URL ÏƒÏÎ½Î´ÎµÏƒÎ·Ï‚/ÎµÎ³Î³ÏÎ±Ï†Î®Ï‚:"
+
+#: includes/class-admin.php:573
+msgid "Theme default will use WooCommerce My Account page if available, otherwise WordPress login."
+msgstr "Î— Ï€ÏÎ¿ÎµÏ€Î¹Î»Î¿Î³Î® Î¸Î­Î¼Î±Ï„Î¿Ï‚ Î¸Î± Ï‡ÏÎ·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹Î®ÏƒÎµÎ¹ Ï„Î· ÏƒÎµÎ»Î¯Î´Î± ÎŸ Î›Î¿Î³Î±ÏÎ¹Î±ÏƒÎ¼ÏŒÏ‚ Î¼Î¿Ï… Ï„Î¿Ï… WooCommerce Î±Î½ ÎµÎ¯Î½Î±Î¹ Î´Î¹Î±Î¸Î­ÏƒÎ¹Î¼Î·, Î´Î¹Î±Ï†Î¿ÏÎµÏ„Î¹ÎºÎ¬ Ï„Î· ÏƒÏÎ½Î´ÎµÏƒÎ· WordPress."
+
+#: includes/class-admin.php:583
+msgid "Note:"
+msgstr "Î£Î·Î¼ÎµÎ¯Ï‰ÏƒÎ·:"
+
+#: includes/class-admin.php:583
+msgid "\"Hide Price From All Products\" is enabled. Individual product selections on the Products page are disabled."
+msgstr "Î— ÎµÏ€Î¹Î»Î¿Î³Î® \"Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î¤Î¹Î¼Î®Ï‚ Î±Ï€ÏŒ ÎŒÎ»Î± Ï„Î± Î ÏÎ¿ÏŠÏŒÎ½Ï„Î±\" ÎµÎ¯Î½Î±Î¹ ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½Î·. ÎŸÎ¹ Î¼ÎµÎ¼Î¿Î½Ï‰Î¼Î­Î½ÎµÏ‚ ÎµÏ€Î¹Î»Î¿Î³Î­Ï‚ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ ÏƒÏ„Î· ÏƒÎµÎ»Î¯Î´Î± Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ ÎµÎ¯Î½Î±Î¹ Î±Ï€ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½ÎµÏ‚."
+
+#: includes/class-admin.php:652
+msgid "\"Hide Price From All Products\" is enabled. Category selections on the Categories page are disabled."
+msgstr "Î— ÎµÏ€Î¹Î»Î¿Î³Î® \"Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î¤Î¹Î¼Î®Ï‚ Î±Ï€ÏŒ ÎŒÎ»Î± Ï„Î± Î ÏÎ¿ÏŠÏŒÎ½Ï„Î±\" ÎµÎ¯Î½Î±Î¹ ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½Î·. ÎŸÎ¹ ÎµÏ€Î¹Î»Î¿Î³Î­Ï‚ ÎºÎ±Ï„Î·Î³Î¿ÏÎ¹ÏŽÎ½ ÏƒÏ„Î· ÏƒÎµÎ»Î¯Î´Î± ÎšÎ±Ï„Î·Î³Î¿ÏÎ¹ÏŽÎ½ ÎµÎ¯Î½Î±Î¹ Î±Ï€ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½ÎµÏ‚."
+
+#: includes/class-admin.php:654
+msgid "\"Hide Price From All Categories\" is enabled. Individual category selections on the Categories page are disabled."
+msgstr "Î— ÎµÏ€Î¹Î»Î¿Î³Î® \"Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Î¤Î¹Î¼Î®Ï‚ Î±Ï€ÏŒ ÎŒÎ»ÎµÏ‚ Ï„Î¹Ï‚ ÎšÎ±Ï„Î·Î³Î¿ÏÎ¯ÎµÏ‚\" ÎµÎ¯Î½Î±Î¹ ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½Î·. ÎŸÎ¹ Î¼ÎµÎ¼Î¿Î½Ï‰Î¼Î­Î½ÎµÏ‚ ÎµÏ€Î¹Î»Î¿Î³Î­Ï‚ ÎºÎ±Ï„Î·Î³Î¿ÏÎ¹ÏŽÎ½ ÏƒÏ„Î· ÏƒÎµÎ»Î¯Î´Î± ÎšÎ±Ï„Î·Î³Î¿ÏÎ¹ÏŽÎ½ ÎµÎ¯Î½Î±Î¹ Î±Ï€ÎµÎ½ÎµÏÎ³Î¿Ï€Î¿Î¹Î·Î¼Î­Î½ÎµÏ‚."
+
+#: includes/class-ajax.php:365 includes/class-ajax.php:389
+msgid "Setting saved successfully."
+msgstr "Î— ÏÏÎ¸Î¼Î¹ÏƒÎ· Î±Ï€Î¿Î¸Î·ÎºÎµÏÏ„Î·ÎºÎµ ÎµÏ€Î¹Ï„Ï…Ï‡ÏŽÏ‚."
+
+#: includes/class-admin.php:790
+msgid "Product Page Button Tag"
+msgstr "Î•Ï„Î¹ÎºÎ­Ï„Î± ÎšÎ¿Ï…Î¼Ï€Î¹Î¿Ï Î£ÎµÎ»Î¯Î´Î±Ï‚ Î ÏÎ¿ÏŠÏŒÎ½Ï„Î¿Ï‚"
+
+#: includes/class-admin.php:800 includes/class-admin.php:828
+msgid "<button> tag"
+msgstr "Î•Ï„Î¹ÎºÎ­Ï„Î± <button>"
+
+#: includes/class-admin.php:804 includes/class-admin.php:832
+msgid "<a> tag"
+msgstr "Î•Ï„Î¹ÎºÎ­Ï„Î± <a>"
+
+#: includes/class-admin.php:808 includes/class-admin.php:836
+msgid "Additional CSS Classes:"
+msgstr "Î•Ï€Î¹Ï€Î»Î­Î¿Î½ ÎšÎ»Î¬ÏƒÎµÎ¹Ï‚ CSS:"
+
+#: includes/class-admin.php:809 includes/class-admin.php:837
+msgid "e.g., my-custom-class another-class"
+msgstr "Ï€.Ï‡., Î·-Î´Î¹ÎºÎ®-Î¼Î¿Ï…-ÎºÎ»Î¬ÏƒÎ· Î¬Î»Î»Î·-ÎºÎ»Î¬ÏƒÎ·"
+
+#: includes/class-admin.php:810 includes/class-admin.php:838
+msgid "Add custom CSS classes to the button (space-separated)."
+msgstr "Î ÏÎ¿ÏƒÎ¸Î­ÏƒÏ„Îµ Ï€ÏÎ¿ÏƒÎ±ÏÎ¼Î¿ÏƒÎ¼Î­Î½ÎµÏ‚ ÎºÎ»Î¬ÏƒÎµÎ¹Ï‚ CSS ÏƒÏ„Î¿ ÎºÎ¿Ï…Î¼Ï€Î¯ (Î´Î¹Î±Ï‡Ï‰ÏÎ¹ÏƒÎ¼Î­Î½ÎµÏ‚ Î¼Îµ ÎºÎµÎ½ÏŒ)."
+
+#: includes/class-admin.php:818
+msgid "Product List / Archive Button Tag"
+msgstr "Î•Ï„Î¹ÎºÎ­Ï„Î± ÎšÎ¿Ï…Î¼Ï€Î¹Î¿Ï Î›Î¯ÏƒÏ„Î±Ï‚ Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ / Î‘ÏÏ‡ÎµÎ¯Î¿Ï…"
+
+#: includes/class-admin.php:738
+msgid "Theme Integration"
+msgstr "Î•Î½ÏƒÏ‰Î¼Î¬Ï„Ï‰ÏƒÎ· Î˜Î­Î¼Î±Ï„Î¿Ï‚"
+
+#: includes/class-admin.php:791 includes/class-admin.php:832
+msgid "Button Alignment:"
+msgstr "Î£Ï„Î¿Î¯Ï‡Î¹ÏƒÎ· ÎšÎ¿Ï…Î¼Ï€Î¹Î¿Ï:"
+
+#: includes/class-admin.php:793 includes/class-admin.php:834
+msgid "Auto (use parent element value)"
+msgstr "Î‘Ï…Ï„ÏŒÎ¼Î±Ï„Î· (Ï‡ÏÎ®ÏƒÎ· Ï„Î¹Î¼Î®Ï‚ Î³Î¿Î½Î¹ÎºÎ¿Ï ÏƒÏ„Î¿Î¹Ï‡ÎµÎ¯Î¿Ï…)"
+
+#: includes/class-admin.php:794 includes/class-admin.php:835
+msgid "Left"
+msgstr "Î‘ÏÎ¹ÏƒÏ„ÎµÏÎ¬"
+
+#: includes/class-admin.php:795 includes/class-admin.php:836
+msgid "Center"
+msgstr "ÎšÎ­Î½Ï„ÏÎ¿"
+
+#: includes/class-admin.php:796 includes/class-admin.php:837
+msgid "Right"
+msgstr "Î”ÎµÎ¾Î¹Î¬"
+
+#: includes/class-admin.php:798 includes/class-admin.php:839
+msgid "Control the horizontal alignment of the button wrapper."
+msgstr "Î•Î»Î­Î³Î¾Ï„Îµ Ï„Î·Î½ Î¿ÏÎ¹Î¶ÏŒÎ½Ï„Î¹Î± ÏƒÏ„Î¿Î¯Ï‡Î¹ÏƒÎ· Ï„Î¿Ï… Ï€ÎµÏÎ¹Ï„Ï…Î»Î¯Î³Î¼Î±Ï„Î¿Ï‚ ÎºÎ¿Ï…Î¼Ï€Î¹Î¿Ï."
+
+#: includes/class-admin.php:360
+msgid "Free Version Features"
+msgstr "Î§Î±ÏÎ±ÎºÏ„Î·ÏÎ¹ÏƒÏ„Î¹ÎºÎ¬ Î”Ï‰ÏÎµÎ¬Î½ ÎˆÎºÎ´Î¿ÏƒÎ·Ï‚"
+
+#: includes/class-admin.php:362
+msgid "Hide prices for unlimited product categories."
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Ï„Î¹Î¼ÏŽÎ½ Î³Î¹Î± Î±Ï€ÎµÏÎ¹ÏŒÏÎ¹ÏƒÏ„ÎµÏ‚ ÎºÎ±Ï„Î·Î³Î¿ÏÎ¯ÎµÏ‚ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½."
+
+#: includes/class-admin.php:363
+msgid "Hide prices from everyone and show a professional AJAX-powered modal contact form."
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Ï„Î¹Î¼ÏŽÎ½ Î±Ï€ÏŒ ÏŒÎ»Î¿Ï…Ï‚ ÎºÎ±Î¹ ÎµÎ¼Ï†Î¬Î½Î¹ÏƒÎ· Î¼Î¹Î±Ï‚ ÎµÏ€Î±Î³Î³ÎµÎ»Î¼Î±Ï„Î¹ÎºÎ®Ï‚ Ï†ÏŒÏÎ¼Î±Ï‚ ÎµÏ€Î¹ÎºÎ¿Î¹Î½Ï‰Î½Î¯Î±Ï‚ modal Î¼Îµ Ï„ÎµÏ‡Î½Î¿Î»Î¿Î³Î¯Î± AJAX."
+
+#: includes/class-admin.php:364
+msgid "Customize button text for product pages and archive pages."
+msgstr "Î ÏÎ¿ÏƒÎ±ÏÎ¼Î¿Î³Î® ÎºÎµÎ¹Î¼Î­Î½Î¿Ï… ÎºÎ¿Ï…Î¼Ï€Î¹Î¿Ï Î³Î¹Î± ÏƒÎµÎ»Î¯Î´ÎµÏ‚ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ ÎºÎ±Î¹ ÏƒÎµÎ»Î¯Î´ÎµÏ‚ Î±ÏÏ‡ÎµÎ¯Î¿Ï…."
+
+#: includes/class-admin.php:365
+msgid "Automatically include product name, ID, SKU, and link in inquiry emails."
+msgstr "Î‘Ï…Ï„ÏŒÎ¼Î±Ï„Î· ÏƒÏ…Î¼Ï€ÎµÏÎ¯Î»Î·ÏˆÎ· Ï„Î¿Ï… Î¿Î½ÏŒÎ¼Î±Ï„Î¿Ï‚, ID, SKU ÎºÎ±Î¹ ÏƒÏ…Î½Î´Î­ÏƒÎ¼Î¿Ï… Ï„Î¿Ï… Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î¿Ï‚ ÏƒÏ„Î± email ÎµÏÏ‰Ï„Î®ÏƒÎµÏ‰Î½."
+
+#: includes/class-admin.php:369
+msgid "All inquiries will be sent directly to your admin email address (%s)."
+msgstr "ÎŒÎ»ÎµÏ‚ Î¿Î¹ ÎµÏÏ‰Ï„Î®ÏƒÎµÎ¹Ï‚ Î¸Î± Î±Ï€Î¿ÏƒÏ„Î­Î»Î»Î¿Î½Ï„Î±Î¹ Î±Ï€ÎµÏ…Î¸ÎµÎ¯Î±Ï‚ ÏƒÏ„Î· Î´Î¹ÎµÏÎ¸Ï…Î½ÏƒÎ· email Ï„Î¿Ï… Î´Î¹Î±Ï‡ÎµÎ¹ÏÎ¹ÏƒÏ„Î® ÏƒÎ±Ï‚ (%s)."
+
+#: includes/class-admin.php:377
+msgid "Unlock More with Pro!"
+msgstr "ÎžÎµÎºÎ»ÎµÎ¹Î´ÏŽÏƒÏ„Îµ Î ÎµÏÎ¹ÏƒÏƒÏŒÏ„ÎµÏÎ± Î¼Îµ Ï„Î·Î½ ÎˆÎºÎ´Î¿ÏƒÎ· Pro!"
+
+#: includes/class-admin.php:378
+msgid "Upgrade to the Pro version to get these advanced capabilities:"
+msgstr "Î‘Î½Î±Î²Î±Î¸Î¼Î¯ÏƒÏ„Îµ ÏƒÏ„Î·Î½ Î­ÎºÎ´Î¿ÏƒÎ· Pro Î³Î¹Î± Î½Î± Î±Ï€Î¿ÎºÏ„Î®ÏƒÎµÏ„Îµ Î±Ï…Ï„Î­Ï‚ Ï„Î¹Ï‚ Ï€ÏÎ¿Î·Î³Î¼Î­Î½ÎµÏ‚ Î´Ï…Î½Î±Ï„ÏŒÏ„Î·Ï„ÎµÏ‚:"
+
+#: includes/class-admin.php:380
+msgid "Product Exclusions:"
+msgstr "Î•Î¾Î±Î¹ÏÎ­ÏƒÎµÎ¹Ï‚ Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½:"
+
+#: includes/class-admin.php:380
+msgid "Exclude specific products from being hidden."
+msgstr "Î•Î¾Î±Î¯ÏÎµÏƒÎ· ÏƒÏ…Î³ÎºÎµÎºÏÎ¹Î¼Î­Î½Ï‰Î½ Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½ Î±Ï€ÏŒ Ï„Î·Î½ Î±Ï€ÏŒÎºÏÏ…ÏˆÎ·."
+
+#: includes/class-admin.php:381
+msgid "Global Overrides:"
+msgstr "ÎšÎ±Î¸Î¿Î»Î¹ÎºÎ­Ï‚ Î Î±ÏÎ±ÎºÎ¬Î¼ÏˆÎµÎ¹Ï‚:"
+
+#: includes/class-admin.php:381
+msgid "Hide prices from all products globally with a single click."
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Ï„Î¹Î¼ÏŽÎ½ Î±Ï€ÏŒ ÏŒÎ»Î± Ï„Î± Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î± ÎºÎ±Î¸Î¿Î»Î¹ÎºÎ¬ Î¼Îµ Î­Î½Î± Î¼ÏŒÎ½Î¿ ÎºÎ»Î¹Îº."
+
+#: includes/class-admin.php:382
+msgid "Role-based Visibility:"
+msgstr "ÎŸÏÎ±Ï„ÏŒÏ„Î·Ï„Î± Î²Î¬ÏƒÎµÎ¹ Î¡ÏŒÎ»Ï‰Î½:"
+
+#: includes/class-admin.php:382
+msgid "Hide prices from specific user roles or guests only."
+msgstr "Î‘Ï€ÏŒÎºÏÏ…ÏˆÎ· Ï„Î¹Î¼ÏŽÎ½ Î±Ï€ÏŒ ÏƒÏ…Î³ÎºÎµÎºÏÎ¹Î¼Î­Î½Î¿Ï…Ï‚ ÏÏŒÎ»Î¿Ï…Ï‚ Ï‡ÏÎ·ÏƒÏ„ÏŽÎ½ Î® Î¼ÏŒÎ½Î¿ Î±Ï€ÏŒ ÎµÏ€Î¹ÏƒÎºÎ­Ï€Ï„ÎµÏ‚."
+
+#: includes/class-admin.php:383
+msgid "Advanced Design Customization:"
+msgstr "Î ÏÎ¿Î·Î³Î¼Î­Î½Î· Î ÏÎ¿ÏƒÎ±ÏÎ¼Î¿Î³Î® Î£Ï‡ÎµÎ´Î¯Î±ÏƒÎ·Ï‚:"
+
+#: includes/class-admin.php:383
+msgid "Select HTML tags, alignment, add Dashicons, and inject CSS classes into buttons."
+msgstr "Î•Ï€Î¹Î»Î­Î¾Ï„Îµ ÎµÏ„Î¹ÎºÎ­Ï„ÎµÏ‚ HTML, ÏƒÏ„Î¿Î¯Ï‡Î¹ÏƒÎ·, Ï€ÏÎ¿ÏƒÎ¸Î­ÏƒÏ„Îµ Dashicons ÎºÎ±Î¹ ÎµÎ¹ÏƒÎ¬Î³ÎµÏ„Îµ ÎºÎ»Î¬ÏƒÎµÎ¹Ï‚ CSS ÏƒÏ„Î± ÎºÎ¿Ï…Î¼Ï€Î¹Î¬."
+
+#: includes/class-admin.php:384
+msgid "Custom Contact Forms & Emails:"
+msgstr "Î ÏÎ¿ÏƒÎ±ÏÎ¼Î¿ÏƒÎ¼Î­Î½ÎµÏ‚ Î¦ÏŒÏÎ¼ÎµÏ‚ Î•Ï€Î¹ÎºÎ¿Î¹Î½Ï‰Î½Î¯Î±Ï‚ & Email:"
+
+#: includes/class-admin.php:384
+msgid "Send inquiries to a custom email address and customize login prompts."
+msgstr "Î‘Ï€Î¿ÏƒÏ„Î¿Î»Î® ÎµÏÏ‰Ï„Î®ÏƒÎµÏ‰Î½ ÏƒÎµ Ï€ÏÎ¿ÏƒÎ±ÏÎ¼Î¿ÏƒÎ¼Î­Î½Î· Î´Î¹ÎµÏÎ¸Ï…Î½ÏƒÎ· email ÎºÎ±Î¹ Ï€ÏÎ¿ÏƒÎ±ÏÎ¼Î¿Î³Î® Ï€ÏÎ¿Ï„ÏÎ¿Ï€ÏŽÎ½ ÏƒÏÎ½Î´ÎµÏƒÎ·Ï‚."
+
+#: includes/class-admin.php:46 includes/class-admin.php:47
+msgid "Product Inquiry"
+msgstr "Î•ÏÏŽÏ„Î·ÏƒÎ· Î ÏÎ¿ÏŠÏŒÎ½Ï„Î¿Ï‚"
+
+msgid ""
+msgstr ""
+

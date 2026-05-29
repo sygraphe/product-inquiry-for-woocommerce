@@ -1,11 +1,11 @@
-=== Sygraphe Product Inquiry Mode for WooCommerce ===
+﻿=== Sygraphe Product Inquiry for WooCommerce ===
 Contributors: Sygraphe
 Tags: woocommerce, hide price, ask for product, contact form, inquiry
 Requires at least: 6.0
 Tested up to: 9.1
 WC requires at least: 8.0
 WC tested up to: 9.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -14,13 +14,13 @@ Hide WooCommerce product prices and replace Add to Cart with a customizable "Ask
 
 == Description ==
 
-Sygraphe Product Inquiry Mode for WooCommerce allows you to selectively hide product prices and replace the WooCommerce "Add to Cart" button with a customizable inquiry button. When a customer clicks this button, a contact form modal opens where they can send you an inquiry about the product.
+Sygraphe Product Inquiry for WooCommerce allows you to selectively hide product prices and replace the WooCommerce "Add to Cart" button with a customizable inquiry button. When a customer clicks this button, a contact form modal opens where they can send you an inquiry about the product.
 
 **Key Features:**
 
 * Hide prices selectively for unlimited product categories.
 * Customize button text for product pages and archive pages.
-* Built-in contact form modal — no extra plugins needed.
+* Built-in contact form modal â€” no extra plugins needed.
 * AJAX-powered category search in the admin panel.
 * Inherits your theme styling for seamless visual integration.
 * Full internationalization (i18n) support with Greek translation included.
@@ -39,11 +39,11 @@ Yes, WooCommerce must be installed and active for this plugin to work.
 
 = Where do inquiry emails get sent? =
 
-Inquiry emails are sent to the WordPress admin email address configured in Settings → General.
+Inquiry emails are sent to the WordPress admin email address configured in Settings â†’ General.
 
 = Can I customize the button text? =
 
-Yes, go to **Hide Price → Button Settings** to set custom button text for product pages and category archives.
+Yes, go to **Hide Price â†’ Button Settings** to set custom button text for product pages and category archives.
 
 == Screenshots ==
 
@@ -54,9 +54,14 @@ Yes, go to **Hide Price → Button Settings** to set custom button text for prod
 
 == Changelog ==
 
+= 1.0.2 =
+* Rebranded from "Product Inquiry Mode for WooCommerce" to "Product Inquiry for WooCommerce".
+* Updated text domain to sygraphe-product-inquiry-for-woocommerce.
+* Renamed plugin file and language files accordingly.
+
 = 1.0.1 =
-* Rebranded to Sygraphe Product Inquiry Mode for WooCommerce.
-* Changed text domain to sygraphe-product-inquiry-mode-for-woocommerce.
+* Rebranded to Sygraphe Product Inquiry for WooCommerce.
+* Changed text domain to sygraphe-product-inquiry-for-woocommerce.
 * Added Required Plugins dependency header.
 * Fixed hardcoded CSS style tags in administrative screens by enqueuing using wp_add_inline_style.
 * Updated WordPress and WooCommerce compatibility headers.

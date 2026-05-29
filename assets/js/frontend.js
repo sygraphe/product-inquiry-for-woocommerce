@@ -1,5 +1,5 @@
-/**
- * Sygraphe Product Inquiry Mode for WooCommerce — Frontend JavaScript
+﻿/**
+ * Sygraphe Product Inquiry for WooCommerce â€” Frontend JavaScript
  *
  * Handles modal open/close, form validation, and AJAX form submission.
  *
@@ -167,17 +167,17 @@
             }
         });
 
-        // Close modal — close button.
+        // Close modal â€” close button.
         $modal.on('click', '.wchpab-modal-close', function () {
             closeModal();
         });
 
-        // Close modal — overlay click.
+        // Close modal â€” overlay click.
         $modal.on('click', '.wchpab-modal-overlay', function () {
             closeModal();
         });
 
-        // Close modal — Escape key.
+        // Close modal â€” Escape key.
         $(document).on('keydown', function (e) {
             if (e.key === 'Escape' && $modal.hasClass('wchpab-modal-open')) {
                 closeModal();

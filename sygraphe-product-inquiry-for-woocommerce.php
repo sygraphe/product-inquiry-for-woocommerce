@@ -1,16 +1,16 @@
 <?php
 /**
- * Plugin Name:       Sygraphe Product Inquiry Mode for WooCommerce
+ * Plugin Name:       Sygraphe Product Inquiry for WooCommerce
  * Plugin URI:        https://sygraphe.com/hide-price-ask-button-for-woocommerce
  * Description:       Hide WooCommerce product prices and replace the Add to Cart button with a customizable "Ask for Product" button that opens a contact modal.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Sygraphe
  * Author URI:        https://github.com/sygraphe
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
- * Text Domain:       sygraphe-product-inquiry-mode-for-woocommerce
+ * Text Domain:       sygraphe-product-inquiry-for-woocommerce
  * Domain Path:       /languages
  * Requires Plugins:  woocommerce
  * WC requires at least: 8.0
@@ -39,8 +39,8 @@ if ( defined( 'WCHPAB_VERSION' ) || function_exists( 'wchpab_check_woocommerce' 
 				<div class="update-message notice inline notice-error notice-alt" style="margin-top: 0; margin-bottom: 0;">
 					<p style="margin: 0.5em 0;">
 
-						<strong><?php esc_html_e( 'Conflict Prevented:', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?></strong> 
-						<?php esc_html_e( 'The Pro version is currently controlling your settings. This free version has paused itself automatically. Please deactivate this free version.', 'sygraphe-product-inquiry-mode-for-woocommerce' ); ?>
+						<strong><?php esc_html_e( 'Conflict Prevented:', 'sygraphe-product-inquiry-for-woocommerce' ); ?></strong> 
+						<?php esc_html_e( 'The Pro version is currently controlling your settings. This free version has paused itself automatically. Please deactivate this free version.', 'sygraphe-product-inquiry-for-woocommerce' ); ?>
 					</p>
 				</div>
 			</td>
@@ -55,7 +55,7 @@ if ( defined( 'WCHPAB_VERSION' ) || function_exists( 'wchpab_check_woocommerce' 
  * Plugin constants.
  */
 if ( ! defined( 'WCHPAB_VERSION' ) ) {
-	define( 'WCHPAB_VERSION', '1.0.1' );
+	define( 'WCHPAB_VERSION', '1.0.2' );
 }
 if ( ! defined( 'WCHPAB_PLUGIN_DIR' ) ) {
 	define( 'WCHPAB_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
@@ -94,8 +94,8 @@ if ( ! function_exists( 'wchpab_woocommerce_missing_notice' ) ) {
 				<?php
 				printf(
 					/* translators: %s: WooCommerce plugin name. */
-					esc_html__( '%s requires WooCommerce to be installed and active.', 'sygraphe-product-inquiry-mode-for-woocommerce' ),
-					'<strong>Sygraphe Product Inquiry Mode for WooCommerce</strong>'
+					esc_html__( '%s requires WooCommerce to be installed and active.', 'sygraphe-product-inquiry-for-woocommerce' ),
+					'<strong>Sygraphe Product Inquiry for WooCommerce</strong>'
 				);
 				?>
 			</p>
@@ -113,7 +113,7 @@ if ( ! function_exists( 'wchpab_woocommerce_missing_notice' ) ) {
  */
 if ( ! function_exists( 'wchpab_init' ) ) {
 	function wchpab_init() {
-		load_plugin_textdomain( 'sygraphe-product-inquiry-mode-for-woocommerce', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+		load_plugin_textdomain( 'sygraphe-product-inquiry-for-woocommerce', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 
 		require_once WCHPAB_PLUGIN_DIR . 'includes/class-ajax.php';
 		require_once WCHPAB_PLUGIN_DIR . 'includes/class-admin.php';
