@@ -14,7 +14,7 @@
  * Domain Path:       /languages
  * Requires Plugins:  woocommerce
  * WC requires at least: 8.0
- * WC tested up to:   9.1
+ * WC tested up to:   10.8
  *
  * @package WCHPAB
  */

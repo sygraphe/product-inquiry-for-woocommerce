@@ -2,9 +2,9 @@
 Contributors: Sygraphe
 Tags: woocommerce, hide price, ask for product, contact form, inquiry
 Requires at least: 6.0
-Tested up to: 9.1
+Tested up to: 7.0
 WC requires at least: 8.0
-WC tested up to: 9.1
+WC tested up to: 10.8
 Stable tag: 1.0.2
 Requires PHP: 7.4
 License: GPLv2 or later
