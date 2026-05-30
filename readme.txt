@@ -1,4 +1,4 @@
-﻿=== Sygraphe Product Inquiry for WooCommerce ===
+=== Sygraphe Product Inquiry for WooCommerce ===
 Contributors: Sygraphe
 Tags: woocommerce, hide price, ask for product, contact form, inquiry
 Requires at least: 6.0

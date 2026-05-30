@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Sygraphe Product Inquiry for WooCommerce — Frontend JavaScript
  *
  * Handles modal open/close, form validation, and AJAX form submission.

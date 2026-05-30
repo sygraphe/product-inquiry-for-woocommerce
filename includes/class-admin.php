@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * Admin class for the Sygraphe Product Inquiry for WooCommerce plugin.
  *

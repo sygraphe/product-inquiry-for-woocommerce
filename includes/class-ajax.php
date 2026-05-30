@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * AJAX handler class for the Sygraphe Product Inquiry for WooCommerce plugin.
  *

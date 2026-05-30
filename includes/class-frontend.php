@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * Frontend class for the Sygraphe Product Inquiry for WooCommerce plugin.
  *

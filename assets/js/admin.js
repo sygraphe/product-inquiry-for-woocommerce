@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Sygraphe Product Inquiry for WooCommerce — Admin JavaScript
  *
  * Handles AJAX-powered search (products/categories/exclude), tag management,
