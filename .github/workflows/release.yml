@@ -1,0 +1,42 @@
+name: Package WooCommerce Plugin
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create custom plugin zip
+        run: |
+          # Define standard naming based on your project
+          FOLDER_NAME="sygraphe-product-inquiry-for-woocommerce"
+          ARCHIVE_NAME="${FOLDER_NAME}.zip"
+          
+          # Create a clean distribution directory
+          mkdir -p dist/${FOLDER_NAME}
+          
+          # Copy your plugin files into the target folder, excluding git metadata
+          rsync -rc --exclude '.git*' --exclude 'dist' ./ dist/${FOLDER_NAME}/
+          
+          # Compress the directory
+          cd dist
+          zip -r ../${ARCHIVE_NAME} ${FOLDER_NAME}
+          cd ..
+          
+          # Pass the file path to the next step
+          echo "ARCHIVE_PATH=${ARCHIVE_NAME}" >> $GITHUB_ENV
+
+      - name: Upload Zip to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ env.ARCHIVE_PATH }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
