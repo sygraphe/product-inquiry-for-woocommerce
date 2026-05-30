@@ -5,7 +5,7 @@ Requires at least: 6.0
 Tested up to: 7.0
 WC requires at least: 8.0
 WC tested up to: 10.8
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -53,6 +53,9 @@ Yes, go to **Hide Price → Button Settings** to set custom button text for prod
 4. The inquiry modal that appears when a customer clicks the button.
 
 == Changelog ==
+
+= 1.0.3 =
+* Fixed UTF-8 BOM encoding issue causing fatal errors on some server configurations.
 
 = 1.0.2 =
 * Rebranded from "Product Inquiry Mode for WooCommerce" to "Product Inquiry for WooCommerce".
