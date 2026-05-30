@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Sygraphe Product Inquiry for WooCommerce
- * Plugin URI:        https://sygraphe.com/hide-price-ask-button-for-woocommerce
+ * Plugin URI:        https://sygraphe.com/product-inquiry-for-woocommerce
  * Description:       Hide WooCommerce product prices and replace the Add to Cart button with a customizable "Ask for Product" button that opens a contact modal.
  * Version:           1.0.2
  * Requires at least: 6.0

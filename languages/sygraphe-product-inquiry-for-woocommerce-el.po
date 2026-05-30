@@ -15,7 +15,7 @@ msgstr ""
 ""
 
 #. translators: %s: WooCommerce plugin name.
-#: wc-hide-price-ask-button.php:58
+#: sygraphe-product-inquiry-for-woocommerce.php:58
 #, php-format
 msgid "%s requires WooCommerce to be installed and active."
 msgstr "Î¤Î¿ %s Î±Ï€Î±Î¹Ï„ÎµÎ¯ Ï„Î¿ WooCommerce Î½Î± ÎµÎ¯Î½Î±Î¹ ÎµÎ³ÎºÎ±Ï„ÎµÏƒÏ„Î·Î¼Î­Î½Î¿ ÎºÎ±Î¹ ÎµÎ½ÎµÏÎ³ÏŒ."
@@ -518,27 +518,27 @@ msgid "Conflict: the following products are in the Hidden Products list. Remove 
 msgstr "Î£ÏÎ³ÎºÏÎ¿Ï…ÏƒÎ·: Ï„Î± Î±ÎºÏŒÎ»Î¿Ï…Î¸Î± Ï€ÏÎ¿ÏŠÏŒÎ½Ï„Î± Î²ÏÎ¯ÏƒÎºÎ¿Î½Ï„Î±Î¹ ÏƒÏ„Î· Î»Î¯ÏƒÏ„Î± ÎšÏÏ…Ï†ÏŽÎ½ Î ÏÎ¿ÏŠÏŒÎ½Ï„Ï‰Î½. Î‘Ï†Î±Î¹ÏÎ­ÏƒÏ„Îµ Ï„Î± Ï€ÏÏŽÏ„Î± Î±Ï€ÏŒ ÎµÎºÎµÎ¯:"
 
 #. Plugin Name of the plugin
-#: wc-hide-price-ask-button.php
+#: sygraphe-product-inquiry-for-woocommerce.php
 msgid "WC Hide Price & Ask Button Pro"
 msgstr ""
 
 #. Plugin URI of the plugin
-#: wc-hide-price-ask-button.php
-msgid "https://github.com/senortiago/wc-hide-price-ask-button"
+#: sygraphe-product-inquiry-for-woocommerce.php
+msgid "https://github.com/sygraphe/sygraphe-product-inquiry-for-woocommerce"
 msgstr ""
 
 #. Description of the plugin
-#: wc-hide-price-ask-button.php
+#: sygraphe-product-inquiry-for-woocommerce.php
 msgid "Hide WooCommerce product prices and replace the Add to Cart button with a customizable \"Ask for Product\" button that opens a contact modal."
 msgstr ""
 
 #. Author of the plugin
-#: wc-hide-price-ask-button.php
+#: sygraphe-product-inquiry-for-woocommerce.php
 msgid "Senortiago"
 msgstr ""
 
 #. Author URI of the plugin
-#: wc-hide-price-ask-button.php
+#: sygraphe-product-inquiry-for-woocommerce.php
 msgid "https://github.com/senortiago"
 msgstr ""
 

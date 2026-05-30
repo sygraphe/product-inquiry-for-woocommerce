@@ -2,8 +2,8 @@
 # This file is distributed under the GPL-3.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: WC Hide Price & Ask Button Pro 1.3.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-hide-price-ask-button\n"
+"Project-Id-Version: Sygraphe Product Inquiry for WooCommerce 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sygraphe-product-inquiry-for-woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -12,30 +12,30 @@ msgstr ""
 "POT-Creation-Date: 2026-03-01T22:11:09+01:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
-"X-Domain: wc-hide-price-ask-button\n"
+"X-Domain: sygraphe-product-inquiry-for-woocommerce\n"
 
 #. Plugin Name of the plugin
-#: wc-hide-price-ask-button.php
+#: sygraphe-product-inquiry-for-woocommerce.php
 msgid "WC Hide Price & Ask Button Pro"
 msgstr ""
 
 #. Plugin URI of the plugin
-#: wc-hide-price-ask-button.php
-msgid "https://github.com/senortiago/wc-hide-price-ask-button"
+#: sygraphe-product-inquiry-for-woocommerce.php
+msgid "https://github.com/sygraphe/sygraphe-product-inquiry-for-woocommerce"
 msgstr ""
 
 #. Description of the plugin
-#: wc-hide-price-ask-button.php
+#: sygraphe-product-inquiry-for-woocommerce.php
 msgid "Hide WooCommerce product prices and replace the Add to Cart button with a customizable \"Ask for Product\" button that opens a contact modal."
 msgstr ""
 
 #. Author of the plugin
-#: wc-hide-price-ask-button.php
+#: sygraphe-product-inquiry-for-woocommerce.php
 msgid "Senortiago"
 msgstr ""
 
 #. Author URI of the plugin
-#: wc-hide-price-ask-button.php
+#: sygraphe-product-inquiry-for-woocommerce.php
 msgid "https://github.com/senortiago"
 msgstr ""
 
@@ -456,7 +456,7 @@ msgid "Close"
 msgstr ""
 
 #. translators: %s: WooCommerce plugin name.
-#: wc-hide-price-ask-button.php:58
+#: sygraphe-product-inquiry-for-woocommerce.php:58
 #, php-format
 msgid "%s requires WooCommerce to be installed and active."
 msgstr ""

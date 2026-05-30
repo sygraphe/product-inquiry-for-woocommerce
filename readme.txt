@@ -27,7 +27,7 @@ Sygraphe Product Inquiry for WooCommerce allows you to selectively hide product 
 
 == Installation ==
 
-1. Upload the `wc-hide-price-ask-button` folder to `/wp-content/plugins/`.
+1. Upload the `sygraphe-product-inquiry-for-woocommerce` folder to `/wp-content/plugins/`.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Go to **Hide Price** in the admin menu to configure the plugin.
 
