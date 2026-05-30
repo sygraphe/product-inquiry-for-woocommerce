@@ -406,7 +406,7 @@ class Frontend {
 				'message_label' => esc_html__( 'Your Message', 'sygraphe-product-inquiry-for-woocommerce' ),
 				'submit_btn'    => esc_html__( 'Send Message', 'sygraphe-product-inquiry-for-woocommerce' ),
 				'required'      => esc_html__( 'Required', 'sygraphe-product-inquiry-for-woocommerce' ),
-				'sending'       => esc_html__( 'Sendingâ€¦', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'sending'       => esc_html__( 'Sending…', 'sygraphe-product-inquiry-for-woocommerce' ),
 				'success'       => esc_html__( 'Thank you! Your message has been sent successfully.', 'sygraphe-product-inquiry-for-woocommerce' ),
 				'error'         => esc_html__( 'An error occurred. Please try again.', 'sygraphe-product-inquiry-for-woocommerce' ),
 				'fill_required' => esc_html__( 'Please fill in all required fields.', 'sygraphe-product-inquiry-for-woocommerce' ),

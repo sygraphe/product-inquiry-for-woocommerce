@@ -29,16 +29,16 @@ class Ajax {
 	 * Constructor. Registers AJAX hooks.
 	 */
 	public function __construct() {
-		// Admin AJAX â€” search categories.
+		// Admin AJAX — search categories.
 		add_action( 'wp_ajax_wchpab_search_categories', array( $this, 'search_categories' ) );
 
-		// Admin AJAX â€” save categories.
+		// Admin AJAX — save categories.
 		add_action( 'wp_ajax_wchpab_save_categories', array( $this, 'save_categories' ) );
 
-		// Admin AJAX â€” save settings.
+		// Admin AJAX — save settings.
 		add_action( 'wp_ajax_wchpab_save_settings', array( $this, 'save_settings' ) );
 
-		// Frontend AJAX â€” submit contact form (logged-in and guest users).
+		// Frontend AJAX — submit contact form (logged-in and guest users).
 		add_action( 'wp_ajax_wchpab_submit_form', array( $this, 'submit_form' ) );
 		add_action( 'wp_ajax_nopriv_wchpab_submit_form', array( $this, 'submit_form' ) );
 	}
@@ -86,7 +86,7 @@ class Ajax {
 			foreach ( $terms as $cat ) {
 				$results[] = array(
 					'id'   => $cat->term_id,
-					'text' => sprintf( '#%d â€” %s', $cat->term_id, $cat->name ),
+					'text' => sprintf( '#%d — %s', $cat->term_id, $cat->name ),
 				);
 			}
 		}

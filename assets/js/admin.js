@@ -1,5 +1,5 @@
 ﻿/**
- * Sygraphe Product Inquiry for WooCommerce â€” Admin JavaScript
+ * Sygraphe Product Inquiry for WooCommerce — Admin JavaScript
  *
  * Handles AJAX-powered search (products/categories/exclude), tag management,
  * search button click, radio toggle, AJAX save, auto-show exclude section,
@@ -112,7 +112,7 @@
 		// Bail if elements don't exist on this page.
 		if ($input.length === 0) return;
 
-		// Local debounce timer â€” one per search instance to avoid cross-instance interference.
+		// Local debounce timer — one per search instance to avoid cross-instance interference.
 		var searchTimer = null;
 
 		// Debounced search on keyup.

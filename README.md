@@ -14,11 +14,11 @@ A WordPress/WooCommerce plugin that hides product prices and replaces the "Add t
 - **Hide Categories:** Selectively hide prices for product categories.
 - **Ask for Product Button:** Hide prices from everyone and show a professional AJAX-powered modal contact form.
 - **Button Customization:** Customize button text for product pages and archive pages.
-- **Built-in contact form modal** â€” no external form plugins needed.
-- **Theme-compatible** â€” inherits your theme's button and form styling.
-- **Fully translatable** â€” Greek translation included out of the box.
+- **Built-in contact form modal** — no external form plugins needed.
+- **Theme-compatible** — inherits your theme's button and form styling.
+- **Fully translatable** — Greek translation included out of the box.
 
-ðŸš€ **[Need more power? Upgrade to the Pro Version!](https://sygraphe.com/sygraphe-product-inquiry-for-woocommerce)**  
+🚀 **[Need more power? Upgrade to the Pro Version!](https://sygraphe.com/product-inquiry-for-woocommerce)**  
 Unlock unlimited hide rules, global overrides, product exclusions, role-based visibility, advanced design customizations (HTML tags, CSS classes, Dashicons), and custom email recipients.
 
 ## Installation
@@ -26,9 +26,9 @@ Unlock unlimited hide rules, global overrides, product exclusions, role-based vi
 1. Download or clone this repository into `wp-content/plugins/`:
    ```bash
    cd wp-content/plugins/
-   git clone https://github.com/sygraphe/sygraphe-product-inquiry-for-woocommerce.git
+   git clone https://github.com/sygraphe/product-inquiry-for-woocommerce.git
    ```
-2. Activate the plugin via **Plugins â†’ Installed Plugins** in WordPress admin.
+2. Activate the plugin via **Plugins → Installed Plugins** in WordPress admin.
 3. Navigate to **Hide Price** in the admin sidebar to configure.
 
 ## Configuration

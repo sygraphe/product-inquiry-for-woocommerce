@@ -120,10 +120,10 @@ class Admin {
 			'ajax_url'          => admin_url( 'admin-ajax.php' ),
 			'nonce'             => wp_create_nonce( 'wchpab_admin_nonce' ),
 			'i18n'              => array(
-				'searching'        => esc_html__( 'Searchingâ€¦', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'searching'        => esc_html__( 'Searching…', 'sygraphe-product-inquiry-for-woocommerce' ),
 				'no_results'       => esc_html__( 'No results found.', 'sygraphe-product-inquiry-for-woocommerce' ),
 				'remove'           => esc_html__( 'Remove', 'sygraphe-product-inquiry-for-woocommerce' ),
-				'saving'           => esc_html__( 'Savingâ€¦', 'sygraphe-product-inquiry-for-woocommerce' ),
+				'saving'           => esc_html__( 'Saving…', 'sygraphe-product-inquiry-for-woocommerce' ),
 				'saved'            => esc_html__( 'Changes saved successfully.', 'sygraphe-product-inquiry-for-woocommerce' ),
 				'save_error'       => esc_html__( 'An error occurred while saving.', 'sygraphe-product-inquiry-for-woocommerce' ),
 				'search'           => esc_html__( 'Search', 'sygraphe-product-inquiry-for-woocommerce' ),
@@ -163,7 +163,7 @@ class Admin {
 						type="text"
 						id="wchpab-category-search"
 						class="wchpab-search-input"
-						placeholder="<?php esc_attr_e( 'Type a category name or IDâ€¦', 'sygraphe-product-inquiry-for-woocommerce' ); ?>"
+						placeholder="<?php esc_attr_e( 'Type a category name or ID…', 'sygraphe-product-inquiry-for-woocommerce' ); ?>"
 						autocomplete="off"
 					/>
 					<button type="button" id="wchpab-category-search-btn" class="button wchpab-search-btn">
@@ -184,7 +184,7 @@ class Admin {
 						foreach ( $saved_cat_ids as $cat_id ) {
 							$term = get_term( $cat_id, 'product_cat' );
 							if ( $term && ! is_wp_error( $term ) ) {
-								$label = sprintf( '#%d â€” %s', $cat_id, $term->name );
+								$label = sprintf( '#%d — %s', $cat_id, $term->name );
 								printf(
 									'<span class="wchpab-tag" data-id="%d">%s<button type="button" class="wchpab-tag-remove" aria-label="%s">&times;</button><input type="hidden" name="wchpab_category_ids[]" value="%d" /></span>',
 									esc_attr( $cat_id ),

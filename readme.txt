@@ -20,7 +20,7 @@ Sygraphe Product Inquiry for WooCommerce allows you to selectively hide product 
 
 * Hide prices selectively for unlimited product categories.
 * Customize button text for product pages and archive pages.
-* Built-in contact form modal â€” no extra plugins needed.
+* Built-in contact form modal — no extra plugins needed.
 * AJAX-powered category search in the admin panel.
 * Inherits your theme styling for seamless visual integration.
 * Full internationalization (i18n) support with Greek translation included.
@@ -39,11 +39,11 @@ Yes, WooCommerce must be installed and active for this plugin to work.
 
 = Where do inquiry emails get sent? =
 
-Inquiry emails are sent to the WordPress admin email address configured in Settings â†’ General.
+Inquiry emails are sent to the WordPress admin email address configured in Settings → General.
 
 = Can I customize the button text? =
 
-Yes, go to **Hide Price â†’ Button Settings** to set custom button text for product pages and category archives.
+Yes, go to **Hide Price → Button Settings** to set custom button text for product pages and category archives.
 
 == Screenshots ==
 
