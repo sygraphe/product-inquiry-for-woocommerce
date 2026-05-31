@@ -113,8 +113,6 @@ if ( ! function_exists( 'wchpab_woocommerce_missing_notice' ) ) {
  */
 if ( ! function_exists( 'wchpab_init' ) ) {
 	function wchpab_init() {
-		load_plugin_textdomain( 'sygraphe-product-inquiry-for-woocommerce', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
-
 		require_once WCHPAB_PLUGIN_DIR . 'includes/class-ajax.php';
 		require_once WCHPAB_PLUGIN_DIR . 'includes/class-admin.php';
 		require_once WCHPAB_PLUGIN_DIR . 'includes/class-frontend.php';
